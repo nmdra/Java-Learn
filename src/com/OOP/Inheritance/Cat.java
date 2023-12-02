@@ -1,4 +1,4 @@
-package basic.Inheritance;
+package OOP.Inheritance;
 
 public class Cat extends Animal {
     private String color;

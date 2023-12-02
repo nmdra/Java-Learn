@@ -1,4 +1,4 @@
-package basic.Inheritance;
+package OOP.Inheritance;
 
 public class InheritanceTest {
     public static void main(String[] args) {
