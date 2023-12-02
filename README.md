@@ -1,10 +1,10 @@
 # Java Learn
 
 Last Update
-Sat 02 Dec 2023 19:26:42 +0530
+Sat 02 Dec 2023 19:29:27 +0530
 
 <details>
-<summary>Directory Tree</summary>
+<summary>Directory Structure</summary>
 <br>
 
 ```Bash
