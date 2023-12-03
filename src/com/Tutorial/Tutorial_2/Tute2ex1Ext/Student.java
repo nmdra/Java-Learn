@@ -33,6 +33,6 @@ public class Student {
     void printDetails() {
         System.out.println("Student ID: " + stdID);
         System.out.println("Name: " + name);
-        System.out.println("Average Marks: " + avg);
+        System.out.println("Average Marks: " + String.format("%.2f", avg));
     }
 }
