@@ -2,7 +2,7 @@ package Tutorial.Tutorial_2.Tute2ex1Ext;
 
 import java.util.Scanner;
 
-public class Tute2ex1 {
+public class testStudent {
     public static void main(String[] args) {
 
         final int VALUE = 3;

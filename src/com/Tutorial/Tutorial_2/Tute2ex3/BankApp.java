@@ -14,12 +14,12 @@ public class BankApp {
 
         Scanner get = new Scanner(System.in);
 
-        System.out.println("Enter Withdraw Amount: ");
+        System.out.print("Enter Withdraw Amount: ");
         float withdraw = get.nextFloat();
 
         acc[0].withdrawBalance(withdraw);
 
-        System.out.println("Enter Deposit Amount: ");
+        System.out.print("Enter Deposit Amount: ");
         float deposit = get.nextFloat();
 
         acc[1].depositBalance(deposit);
