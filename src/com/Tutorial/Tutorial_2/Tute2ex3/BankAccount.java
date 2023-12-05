@@ -16,19 +16,19 @@ public class BankAccount {
         this.accHolderName = accHolderName;
     }
 
-    void setBalance(int balance){
+    public void setBalance(int balance){
         this.balance = balance;
     }
 
-    void withdrawBalance(float withdraw){
+    public void withdrawBalance(float withdraw){
         balance -= withdraw;
     }
 
-    void depositBalance(float depositAmount){
+    public void depositBalance(float depositAmount){
         balance += depositAmount;
     }
 
-    void displayDetails(){
+    public void displayDetails(){
         System.out.println("Account No: " + accNo);
         System.out.println("Account Holder's Name: " + accHolderName);
         System.out.println("Current Balance: " + balance);

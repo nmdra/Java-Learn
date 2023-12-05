@@ -19,18 +19,18 @@ public class Student {
         this.name = name;
     }
 
-    void setMarks(int mark_1, int mark_2, int mark_3) {
+    public void setMarks(int mark_1, int mark_2, int mark_3) {
         this.mark_1 = mark_1;
         this.mark_2 = mark_2;
         this.mark_3 = mark_3;
         calcAvg();
     }
 
-    void calcAvg() {
+    public void calcAvg() {
         avg = ((float) (mark_1 + mark_2 + mark_3) / 3);
     }
 
-    void printDetails() {
+    public void printDetails() {
         System.out.println("Student ID: " + stdID);
         System.out.println("Name: " + name);
         System.out.println("Average Marks: " + String.format("%.2f", avg));
