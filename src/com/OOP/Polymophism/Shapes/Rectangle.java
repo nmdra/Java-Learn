@@ -1,4 +1,4 @@
-package OOP.Inheritance.Shapes;
+package OOP.Polymophism.Shapes;
 
 // Child Class
 class Rectangle extends Shape {
@@ -26,4 +26,16 @@ class Rectangle extends Shape {
     public void calculateArea() {
         System.out.println("Rectangele Area = " + length * width);
     }
+
+//    Wrong: Return type doesn't match.
+//    static int getShapes(){
+//        return shapeCount;
+//    }
+
+    public int shapeC(){
+        return shapeCount;
+//      return super.shapeCount; // also works, Not Recommended.
+//      return this.shapeCount; // also works, Not Recommended.
+    }
+
 }

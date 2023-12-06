@@ -1,4 +1,4 @@
-package OOP.Inheritance;
+package OOP.Inheritance.Animal;
 
 public class Animal {
 	private boolean vegetarian;

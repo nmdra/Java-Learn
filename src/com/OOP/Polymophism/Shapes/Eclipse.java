@@ -1,4 +1,4 @@
-package OOP.Inheritance.Shapes;
+package OOP.Polymophism.Shapes;
 
 class Eclipse extends Circle {
     private double semiMajorAxis;
@@ -8,7 +8,7 @@ class Eclipse extends Circle {
         this.semiMajorAxis = semiMajorAxis;
     }
 
-    // Method to calculate area (overrides the method in the base class)
+    // Method Overriding
     @Override
     public void calculateArea() {
         System.out.println("Eclipse Area = " + Math.PI * radius * semiMajorAxis);

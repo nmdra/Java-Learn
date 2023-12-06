@@ -1,4 +1,4 @@
-package OOP.Inheritance.Shapes;
+package OOP.Polymophism.Shapes;
 
 class Square extends Rectangle{
     private double side;

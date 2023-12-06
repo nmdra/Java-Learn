@@ -1,6 +1,6 @@
 package OOP.Inheritance.Animal;
 
-public class InheritanceTest {
+public class animalTest {
     public static void main(String[] args) {
         Cat cat = new Cat(false, "milk", 4);
 

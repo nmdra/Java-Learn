@@ -1,8 +1,7 @@
-package OOP.Inheritance.Shapes;
+package OOP.Polymophism.Shapes;
 
 // Derived class - Circle
 class Circle extends Shape {
-
     protected double radius;
 
     // Constructor

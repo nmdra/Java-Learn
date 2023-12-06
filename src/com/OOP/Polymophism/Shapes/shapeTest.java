@@ -25,11 +25,10 @@ public class shapeTest {
         rectangle1.calculateArea();
         eclipse.calculateArea();
 
+        System.out.println(sq.shapeC());
 
         Shape.getShapes();
+        Shape.getShapes("Shape Count: ");
     }
-
-
-
 
 }
