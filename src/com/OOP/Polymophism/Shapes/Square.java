@@ -5,11 +5,12 @@ class Square extends Rectangle{
 
     Square(double side){
         super(side);
+//        this.side = side;
     }
 
     @Override
     public void calculateArea(){
-        System.out.println("Square Area = " + side * side);
+        System.out.println("Square Area = " + super.length * super.width);
     }
 
 }
