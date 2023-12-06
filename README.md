@@ -1,7 +1,7 @@
 # Java Learn
 
 Last Update
-Wed 06 Dec 2023 18:51:08 +0530
+Tue 05 Dec 2023 21:28:34 +0530
 
 <details>
 <summary>Directory Structure</summary>
@@ -19,20 +19,11 @@ Wed 06 Dec 2023 18:51:08 +0530
         ├── examples
         │   └── fibo.java
         ├── OOP
-        │   ├── Inheritance
-        │   │   └── Animal
-        │   │       ├── Animal.java
-        │   │       ├── animalTest.java
-        │   │       └── Cat.java
-        │   └── Polymophism
-        │       └── Shapes
-        │           ├── Circle.java
-        │           ├── Eclipse.java
-        │           ├── Rectangle.java
-        │           ├── Shape.java
-        │           ├── shapeTest.java
-        │           └── Square.java
-        └── Tutorials
+        │   └── Inheritance
+        │       ├── Animal.java
+        │       ├── Cat.java
+        │       └── InheritanceTest.java
+        └── Tutorial
             ├── Tutorial_1
             │   ├── Tute1ex1.java
             │   ├── Tute1ex2.java
@@ -60,6 +51,6 @@ Wed 06 Dec 2023 18:51:08 +0530
                     ├── Calc.java
                     └── DemoApp.java
 
-21 directories, 29 files
+18 directories, 23 files
 
 ```
