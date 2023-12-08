@@ -1,4 +1,4 @@
-package examples;
+package Extra;
 
 class fibo {
     static int fib(int n) {

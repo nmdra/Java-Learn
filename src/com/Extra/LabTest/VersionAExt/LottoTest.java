@@ -1,4 +1,4 @@
-package examples.VersionAExt;
+package Extra.LabTest.VersionAExt;
 
 import java.util.Arrays;
 import java.util.Scanner;
