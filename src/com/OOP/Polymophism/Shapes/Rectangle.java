@@ -2,8 +2,8 @@ package OOP.Polymophism.Shapes;
 
 // Child Class
 class Rectangle extends Shape {
-    private double length;
-    private double width;
+    protected double length;
+    protected double width;
 
     public Rectangle(String color, double length, double width) {
         super(color);
@@ -24,7 +24,7 @@ class Rectangle extends Shape {
     }
 
     public void calculateArea() {
-        System.out.println("Rectangele Area = " + length * width);
+        System.out.println("Rectangle Area = " + length * width);
     }
 
 //    Wrong: Return type doesn't match.
