@@ -1,4 +1,4 @@
-package basic.fundamental.ExceptionHandling;
+package basic.ExceptionHandling;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -37,8 +37,6 @@ public class ExceptionHandling {
             // Close the scanner to prevent resource leak
             scanner.close();
         }
-
-
     }
 
     private static double divideNumbers(int numerator, int denominator) {

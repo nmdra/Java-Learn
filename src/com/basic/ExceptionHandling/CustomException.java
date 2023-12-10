@@ -1,4 +1,4 @@
-package basic.fundamental.ExceptionHandling;
+package basic.ExceptionHandling;
 
 class CustomException extends Exception {
     CustomException(String message) {
