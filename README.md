@@ -1,16 +1,16 @@
 # Java Learn
 
 Last Update
-Sun 10 Dec 2023 22:59:36 +0530
+Mon 11 Dec 2023 15:54:39 +0530
 
 ```Bash
 
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Java                            76            507            159           1438
+Java                            92            645            255           1816
 -------------------------------------------------------------------------------
-SUM:                            76            507            159           1438
+SUM:                            92            645            255           1816
 -------------------------------------------------------------------------------
 
 ```
@@ -33,6 +33,8 @@ SUM:                            76            507            159           1438
         │   │   └── ExceptionHandling
         │   │       ├── CustomException.java
         │   │       └── ExceptionHandling.java
+        │   ├── LambdaExpression
+        │   │   └── LambdaFunctions.java
         │   └── Strings
         │       ├── Comparison.java
         │       ├── Methods.java
@@ -62,6 +64,26 @@ SUM:                            76            507            159           1438
         │   │   ├── EmployeeApp.java
         │   │   ├── Employee.java
         │   │   └── Manager.java
+        │   ├── Generics
+        │   │   ├── Examples
+        │   │   │   ├── BoundType.java
+        │   │   │   ├── BoundTypeTest.java
+        │   │   │   ├── GenericClass.java
+        │   │   │   ├── GenericClassTest.java
+        │   │   │   ├── GenericMethod.java
+        │   │   │   └── WildCards
+        │   │   │       ├── LowerBoundedWildcardExample.java
+        │   │   │       ├── UpperBoundedWildcardExample.java
+        │   │   │       └── WildCard.java
+        │   │   └── KunalExamples
+        │   │       ├── comparing
+        │   │       │   ├── Main.java
+        │   │       │   └── Student.java
+        │   │       ├── CustomArrayList.java
+        │   │       ├── CustomGenArrayList.java
+        │   │       ├── GenericInterface.java
+        │   │       ├── GenericTest.java
+        │   │       └── WildcardExample.java
         │   ├── Inheritance
         │   │   └── Animal
         │   │       ├── Animal.java
@@ -139,6 +161,6 @@ SUM:                            76            507            159           1438
                     ├── AgeValidationDemo.java
                     └── AgeValidationException.java
 
-39 directories, 79 files
+45 directories, 95 files
 
 ```
