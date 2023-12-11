@@ -1,4 +1,4 @@
-package OOP.Interface.Cars;
+package OOP.Interfaces.Cars;
 
 public class NiceCar {
     private Engine engine;

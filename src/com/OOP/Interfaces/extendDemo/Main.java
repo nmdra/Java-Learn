@@ -1,4 +1,4 @@
-package OOP.Interface.extendDemo;
+package OOP.Interfaces.extendDemo;
 
 public class Main implements B{
     @Override

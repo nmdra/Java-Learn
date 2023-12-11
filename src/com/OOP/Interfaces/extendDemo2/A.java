@@ -1,4 +1,4 @@
-package OOP.Interface.extendDemo2;
+package OOP.Interfaces.extendDemo2;
 
 public interface A {
     // static interface methods should always have a body

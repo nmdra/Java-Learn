@@ -1,4 +1,4 @@
-package OOP.Interface.Shapes;
+package OOP.Interfaces.Shapes;
 
 public class ShapeAreaTest {
     public static void main(String[] args) {
