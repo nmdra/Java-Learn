@@ -1,4 +1,4 @@
-package OOP.Interface.Shapes;
+package OOP.Interfaces.Shapes;
 
 public abstract class GetInput {
     abstract int squareInput();

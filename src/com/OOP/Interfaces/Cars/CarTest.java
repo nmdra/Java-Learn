@@ -1,4 +1,4 @@
-package OOP.Interface.Cars;
+package OOP.Interfaces.Cars;
 
 public class CarTest {
     public static void main(String[] args) {

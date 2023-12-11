@@ -1,4 +1,4 @@
-package OOP.Interface.nested;
+package OOP.Interfaces.nested;
 
 public class A {
     // nested interface
