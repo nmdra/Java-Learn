@@ -1,4 +1,4 @@
-package OOP.AbstractClass;
+package OOP.AbstractClasses;
 
 class EmployeeApp {
     public static void main(String[] args) {
