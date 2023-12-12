@@ -1,4 +1,4 @@
-package com.kunal.enumExamples;
+package OOP.Enums;
 
 public interface A {
     void hello();

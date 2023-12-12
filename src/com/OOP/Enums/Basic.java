@@ -1,4 +1,4 @@
-package com.kunal.enumExamples;
+package OOP.Enums;
 
 public class Basic {
     enum Week implements A{
@@ -8,9 +8,7 @@ public class Basic {
         // since its final you cannot create child enums
         // type is Week
 
-        void display() {
-
-        }
+        void display() {};
 
         Week() {
             System.out.println("Constructor called for " + this);
