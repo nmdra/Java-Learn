@@ -1,4 +1,4 @@
-package OOP.AbstractClass;
+package OOP.AbstractClasses;
 
 public class Developer extends Employee{
 

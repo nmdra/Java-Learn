@@ -1,4 +1,4 @@
-package OOP.AbstractClass;
+package OOP.AbstractClasses;
 
 public class Manager extends Employee {
     public Manager(String name, int employeeId) {

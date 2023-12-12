@@ -1,4 +1,4 @@
-package OOP.AbstractClass;
+package OOP.AbstractClasses;
 
 public abstract class Employee {
     protected String name;
