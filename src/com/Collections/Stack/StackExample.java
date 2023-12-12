@@ -3,15 +3,14 @@ package Collections.Stack;
 import java.util.Stack;
 
 /**
- * Example class demonstrating the usage of Stack in Java.
+ * The stack is the subclass of Vector. I
+ * t implements the last-in-first-out data structure, i.e., Stack.
+ * The stack contains all the methods of Vector class and also provides
+ * its methods like boolean push(),boolean peek(), boolean push(object o),
+ * which defines its properties.
  */
-public class StackExample {
 
-    /**
-     * Main method to demonstrate Stack usage.
-     *
-     * @param args Command line arguments (not used in this example).
-     */
+public class StackExample {
     public static void main(String[] args) {
         // Creating a Stack of Integer type
         Stack<Integer> integerStack = new Stack<>();
@@ -19,7 +18,7 @@ public class StackExample {
         // Pushing elements onto the stack
         integerStack.push(10);
         integerStack.push(20);
-        integerStack.push(30);
+        integerStack.addElement(99);
 
         // Peeking at the top element (without removing)
         System.out.println("Top element of the stack: " + integerStack.peek());

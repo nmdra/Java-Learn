@@ -8,12 +8,6 @@ import java.util.List;
  * ArrayList is a resizable-array implementation of the List interface.
  */
 public class ArrayListEx {
-
-    /**
-     * The main method is the entry point of the program.
-     *
-     * @param args Command-line arguments (not used in this example).
-     */
     public static void main(String[] args) {
         // Creating an ArrayList of Strings
         List<String> fruits = new ArrayList<>();
@@ -31,7 +25,8 @@ public class ArrayListEx {
         fruits.add(2, "Grapes");
 
         // Displaying the modified list
-        System.out.println("Modified List: " + fruits);
+        fruits.forEach(x -> System.out.print(x + " "));
+        System.out.println();
 
         // Accessing elements by index
         String thirdFruit = fruits.get(2);

@@ -2,7 +2,9 @@ package Collections.Vector;
 import java.util.Vector;
 
 /**
- * Example class demonstrating the usage of Vector in Java.
+ * Vector uses a dynamic array to store the data elements.
+ * It is similar to ArrayList.
+ * However, It is synchronized and contains many methods that are not the part of Collection framework.
  */
 public class VectorExample {
    public static void main(String[] args) {
@@ -13,11 +15,14 @@ public class VectorExample {
         stringVector.add("Java");
         stringVector.add("Python");
         stringVector.add("C++");
+        stringVector.add("Java");
 
         // Accessing elements using index
         System.out.println("Element at index 0: " + stringVector.get(0));
         System.out.println("Element at index 1: " + stringVector.get(1));
         System.out.println("Element at index 2: " + stringVector.get(2));
+
+        System.out.println("Last Index of Java:" + stringVector.lastIndexOf("Java"));
 
         // Iterating through the Vector
         System.out.println("\nIterating through the Vector:");
