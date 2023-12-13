@@ -17,21 +17,18 @@ import java.util.List;
  * <p>For more details, refer to <a href="https://stackoverflow.com/a/322742"> this Link</a>.
  */
 
-public class LinkedListExample {
+public class LinkedListEx {
 
     public static void main(String[] args) {
-        // Creating a LinkedList
         LinkedList<String> linkedList = new LinkedList<>();
 
         LinkedList<Double> linkedList1 = new LinkedList<>(List.of(1.11));
 
-        // Adding elements to the LinkedList
         linkedList.add("Java");
         linkedList.add("Python");
         linkedList.add("C++");
         linkedList.add("JavaScript");
 
-        // Displaying the elements of the LinkedList
         System.out.println("LinkedList Elements: " + linkedList);
 
         // Adding an element at the beginning

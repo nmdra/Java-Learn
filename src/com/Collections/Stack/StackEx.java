@@ -10,12 +10,10 @@ import java.util.Stack;
  * which defines its properties.
  */
 
-public class StackExample {
+public class StackEx {
     public static void main(String[] args) {
-        // Creating a Stack of Integer type
         Stack<Integer> integerStack = new Stack<>();
 
-        // Pushing elements onto the stack
         integerStack.push(10);
         integerStack.push(20);
         integerStack.addElement(99);
