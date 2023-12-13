@@ -1,4 +1,5 @@
 package Collections.Vector;
+
 import java.util.Vector;
 
 /**
@@ -6,18 +7,15 @@ import java.util.Vector;
  * It is similar to ArrayList.
  * However, It is synchronized and contains many methods that are not the part of Collection framework.
  */
-public class VectorExample {
+public class VectorEx {
    public static void main(String[] args) {
-        // Creating a Vector of String type
         Vector<String> stringVector = new Vector<>();
 
-        // Adding elements to the Vector
         stringVector.add("Java");
         stringVector.add("Python");
         stringVector.add("C++");
         stringVector.add("Java");
 
-        // Accessing elements using index
         System.out.println("Element at index 0: " + stringVector.get(0));
         System.out.println("Element at index 1: " + stringVector.get(1));
         System.out.println("Element at index 2: " + stringVector.get(2));

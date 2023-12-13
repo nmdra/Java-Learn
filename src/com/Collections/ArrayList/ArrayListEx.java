@@ -9,16 +9,13 @@ import java.util.List;
  */
 public class ArrayListEx {
     public static void main(String[] args) {
-        // Creating an ArrayList of Strings
         List<String> fruits = new ArrayList<>();
 
-        // Adding elements to the ArrayList
         fruits.add("Apple");
         fruits.add("Banana");
         fruits.add("Orange");
         fruits.add("Mango");
 
-        // Displaying the original list
         System.out.println("Original List: " + fruits);
 
         // Adding an element at a specific index
