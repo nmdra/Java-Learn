@@ -1,16 +1,16 @@
 # Java Learn
 
 Last Update
-Wed 13 Dec 2023 20:18:21 +0530
+Thu 14 Dec 2023 00:19:43 +0530
 
 ```Bash
 
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Java                           102            740            336           2064
+Java                           107            775            336           2169
 -------------------------------------------------------------------------------
-SUM:                           102            740            336           2064
+SUM:                           107            775            336           2169
 -------------------------------------------------------------------------------
 
 ```
@@ -75,6 +75,14 @@ SUM:                           102            740            336           2064
         │   │       ├── testRandNum.java
         │   │       └── VC.pdf
         │   └── Palin.java
+        ├── LabEx
+        │   └── Collections
+        │       ├── Ex1.java
+        │       ├── Ex2
+        │       ├── Ex2.java
+        │       ├── Ex3.java
+        │       ├── Ex4.java
+        │       └── Student.java
         ├── OOP
         │   ├── AbstractClasses
         │   │   ├── Developer.java
@@ -181,6 +189,6 @@ SUM:                           102            740            336           2064
                     ├── AgeValidationDemo.java
                     └── AgeValidationException.java
 
-54 directories, 106 files
+57 directories, 111 files
 
 ```
