@@ -1,16 +1,16 @@
 # Java Learn
 
 Last Update
-Thu 14 Dec 2023 00:19:43 +0530
+Thu 14 Dec 2023 14:32:46 +0530
 
 ```Bash
 
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Java                           107            775            336           2169
+Java                           123            843            363           2389
 -------------------------------------------------------------------------------
-SUM:                           107            775            336           2169
+SUM:                           123            843            363           2389
 -------------------------------------------------------------------------------
 
 ```
@@ -25,9 +25,12 @@ SUM:                           107            775            336           2169
 └── src
     └── com
         ├── basic
+        │   ├── commandArgs.java
         │   ├── ExceptionHandling
+        │   │   ├── CheckedExample.java
         │   │   ├── CustomException.java
-        │   │   └── ExceptionHandling.java
+        │   │   ├── ExceptionHandling.java
+        │   │   └── UncheckedExample.java
         │   ├── fundamental
         │   │   ├── Basic.java
         │   │   └── ExceptionHandling
@@ -76,13 +79,29 @@ SUM:                           107            775            336           2169
         │   │       └── VC.pdf
         │   └── Palin.java
         ├── LabEx
-        │   └── Collections
-        │       ├── Ex1.java
-        │       ├── Ex2
-        │       ├── Ex2.java
-        │       ├── Ex3.java
-        │       ├── Ex4.java
-        │       └── Student.java
+        │   ├── Collections
+        │   │   ├── Ex1.java
+        │   │   ├── Ex2
+        │   │   ├── Ex2.java
+        │   │   ├── Ex3.java
+        │   │   ├── Ex4.java
+        │   │   └── Student.java
+        │   ├── Lab1
+        │   │   ├── Lab1Ex1.java
+        │   │   ├── Lab1Ex2.java
+        │   │   ├── Lab1Ex3.java
+        │   │   ├── Lab1Ex4.java
+        │   │   ├── Lab1Ex5.java
+        │   │   ├── Lab1Ex6.java
+        │   │   └── Lab1Ex7.java
+        │   └── Lab2
+        │       ├── Lab2Ex1.java
+        │       ├── Lab2Ex2.java
+        │       ├── Lab2Ex3.java
+        │       ├── Lab2Ex4.java
+        │       └── Lab2Ex5
+        │           ├── EvenOddNumber.java
+        │           └── NumCheck.java
         ├── OOP
         │   ├── AbstractClasses
         │   │   ├── Developer.java
@@ -189,6 +208,6 @@ SUM:                           107            775            336           2169
                     ├── AgeValidationDemo.java
                     └── AgeValidationException.java
 
-57 directories, 111 files
+60 directories, 127 files
 
 ```
