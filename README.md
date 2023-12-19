@@ -1,17 +1,17 @@
 # Java Learn
 
 Last Update
-Mon 18 Dec 2023 21:31:11 +0530
+Tue 19 Dec 2023 14:45:08 +0530
 
 ```Bash
 
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Java                           133            879            372           2570
+Java                           142            913            402           2736
 Text                             1              0              0              4
 -------------------------------------------------------------------------------
-SUM:                           134            879            372           2574
+SUM:                           143            913            402           2740
 -------------------------------------------------------------------------------
 
 ```
@@ -43,6 +43,7 @@ SUM:                           134            879            372           2574
         │   │   └── newFile.java
         │   ├── LambdaExpression
         │   │   └── LambdaFunctions.java
+        │   ├── StaticClass.java
         │   └── Strings
         │       ├── Comparison.java
         │       ├── Methods.java
@@ -67,6 +68,20 @@ SUM:                           134            879            372           2574
         │   │   └── StackEx.java
         │   └── Vector
         │       └── VectorEx.java
+        ├── DesignPatterns
+        │   └── Singleton
+        │       ├── Basic
+        │       │   ├── SingletonDemo.java
+        │       │   └── Singleton.java
+        │       ├── BasicMulti
+        │       │   ├── DemoMultiThread.java
+        │       │   └── Singleton.java
+        │       ├── ThreadSafeSingleton
+        │       │   ├── DemoMultiThread.java
+        │       │   └── Singleton.java
+        │       └── ThreadSafeSingleton2
+        │           ├── Demo.java
+        │           └── Singleton.java
         ├── Extra
         │   ├── ArrayManipulation.java
         │   ├── fibo.java
@@ -225,7 +240,7 @@ SUM:                           134            879            372           2574
                     ├── AgeValidationDemo.java
                     └── AgeValidationException.java
 
-64 directories, 139 files
+70 directories, 148 files
 
 ```
 ------
