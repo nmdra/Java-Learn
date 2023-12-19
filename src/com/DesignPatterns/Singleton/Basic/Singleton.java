@@ -1,4 +1,4 @@
-package DesignPatterns.Singleton;
+package DesignPatterns.Singleton.Basic;
 
 /**
  * Make the default constructor private,

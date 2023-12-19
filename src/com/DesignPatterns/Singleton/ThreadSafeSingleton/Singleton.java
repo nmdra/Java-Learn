@@ -24,9 +24,10 @@ public final class Singleton {
         //
         // You can read more info DCL issues in Java here:
         // https://refactoring.guru/java-dcl-issue
+
         Singleton result = instance;
         if (result != null) {
-            return result;
+            return instance;
         }
         synchronized(Singleton.class) {
             if (instance == null) {

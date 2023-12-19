@@ -1,4 +1,6 @@
-package DesignPatterns.Singleton;
+package DesignPatterns.Singleton.Basic;
+
+import DesignPatterns.Singleton.Basic.Singleton;
 
 public class SingletonDemo {
     public static void main(String[] args) {
