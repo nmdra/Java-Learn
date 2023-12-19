@@ -243,6 +243,8 @@ SUM:                           143            913            402           2740
 70 directories, 148 files
 
 ```
+</details>
+
 ------
 
 <div align="center">
