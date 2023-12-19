@@ -1,16 +1,17 @@
 # Java Learn
 
 Last Update
-Thu 14 Dec 2023 14:32:46 +0530
+Tue 19 Dec 2023 14:45:08 +0530
 
 ```Bash
 
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Java                           123            843            363           2389
+Java                           142            913            402           2736
+Text                             1              0              0              4
 -------------------------------------------------------------------------------
-SUM:                           123            843            363           2389
+SUM:                           143            913            402           2740
 -------------------------------------------------------------------------------
 
 ```
@@ -36,8 +37,13 @@ SUM:                           123            843            363           2389
         │   │   └── ExceptionHandling
         │   │       ├── CustomException.java
         │   │       └── ExceptionHandling.java
+        │   ├── IO
+        │   │   ├── bufReader.java
+        │   │   ├── Monster.txt
+        │   │   └── newFile.java
         │   ├── LambdaExpression
         │   │   └── LambdaFunctions.java
+        │   ├── StaticClass.java
         │   └── Strings
         │       ├── Comparison.java
         │       ├── Methods.java
@@ -62,6 +68,20 @@ SUM:                           123            843            363           2389
         │   │   └── StackEx.java
         │   └── Vector
         │       └── VectorEx.java
+        ├── DesignPatterns
+        │   └── Singleton
+        │       ├── Basic
+        │       │   ├── SingletonDemo.java
+        │       │   └── Singleton.java
+        │       ├── BasicMulti
+        │       │   ├── DemoMultiThread.java
+        │       │   └── Singleton.java
+        │       ├── ThreadSafeSingleton
+        │       │   ├── DemoMultiThread.java
+        │       │   └── Singleton.java
+        │       └── ThreadSafeSingleton2
+        │           ├── Demo.java
+        │           └── Singleton.java
         ├── Extra
         │   ├── ArrayManipulation.java
         │   ├── fibo.java
@@ -174,6 +194,18 @@ SUM:                           123            843            363           2389
         │   │       └── Square.java
         │   └── Wrapper
         │       └── WrapperClass.java
+        ├── Threads
+        │   ├── Sync
+        │   │   ├── Demo.java
+        │   │   ├── SharedResource.java
+        │   │   └── ThreadImpl.java
+        │   ├── SyncBlock
+        │   │   ├── SharedResource.java
+        │   │   ├── SyncBlockDemo.java
+        │   │   └── ThreadImpl.java
+        │   ├── ThreadJoinExample.java
+        │   ├── Thread-Life-Cycle.png
+        │   └── YieldMethodTest.java
         └── Tutorials
             ├── Tutorial_1
             │   ├── Tute1ex1.java
@@ -208,6 +240,13 @@ SUM:                           123            843            363           2389
                     ├── AgeValidationDemo.java
                     └── AgeValidationException.java
 
-60 directories, 127 files
+70 directories, 148 files
 
 ```
+------
+
+<div align="center">
+  <a href="https://nmdra.github.io"> 🌎 nmdra.github.io</a> |
+  <a href="https://github.com/nmdra"> 👨‍💻 Github</a> |
+  <a href="https://twitter.com/nimendra_"> 🐦 Twitter</a> |
+</div>
