@@ -17,7 +17,7 @@ class MyThread extends Thread {
 public class ThreadJoinExample {
     public static void main(String[] args) throws InterruptedException {
         MyThread thread1 = new MyThread();
-
+        thread1.setName("Thread 1");
         thread1.start();
 
         thread1.join();

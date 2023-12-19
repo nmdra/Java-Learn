@@ -5,8 +5,8 @@ public class Demo {
         SharedResource sample = new SharedResource();
         SharedResource sample1 = new SharedResource();
 
-        ThreadImpl threadImpl1 = new ThreadImpl(sample);
-        ThreadImpl threadImpl2 = new ThreadImpl(sample);
+        Thread threadImpl1 = new ThreadImpl(sample);
+        Thread threadImpl2 = new ThreadImpl(sample);
 
         threadImpl1.start();
         threadImpl2.start();
