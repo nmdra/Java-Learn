@@ -1,4 +1,4 @@
-package basic;
+package OOP.Enums;
 
 // Define an enum called Weekday
 enum Weekday {
