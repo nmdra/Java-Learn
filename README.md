@@ -1,17 +1,17 @@
 # Java Learn
 
 Last Update
-Tue 19 Dec 2023 14:45:08 +0530
+Wed 20 Dec 2023 19:58:55 +0530
 
 ```Bash
 
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Java                           142            913            402           2736
+Java                           164            966            433           2934
 Text                             1              0              0              4
 -------------------------------------------------------------------------------
-SUM:                           143            913            402           2740
+SUM:                           165            966            433           2938
 -------------------------------------------------------------------------------
 
 ```
@@ -27,6 +27,7 @@ SUM:                           143            913            402           2740
     └── com
         ├── basic
         │   ├── commandArgs.java
+        │   ├── EnumExample.java
         │   ├── ExceptionHandling
         │   │   ├── CheckedExample.java
         │   │   ├── CustomException.java
@@ -69,6 +70,30 @@ SUM:                           143            913            402           2740
         │   └── Vector
         │       └── VectorEx.java
         ├── DesignPatterns
+        │   ├── Factory
+        │   │   ├── FactoryMethod
+        │   │   │   ├── CarFactory.java
+        │   │   │   ├── Car.java
+        │   │   │   ├── MainApp.java
+        │   │   │   ├── MotorcycleFactory.java
+        │   │   │   ├── Motorcycle.java
+        │   │   │   ├── MotorVehicleFactory.java
+        │   │   │   └── MotorVehicle.java
+        │   │   ├── FactoryMethod2
+        │   │   │   ├── BeefBurger.java
+        │   │   │   ├── BeefBurgerRestaurant.java
+        │   │   │   ├── Burger.java
+        │   │   │   ├── MainApp.java
+        │   │   │   ├── Restaurant.java
+        │   │   │   ├── VeggieBurger.java
+        │   │   │   └── VeggieBurgerRestaurant.java
+        │   │   └── SimpleFactory
+        │   │       ├── EmailNotification.java
+        │   │       ├── NotificationFactory.java
+        │   │       ├── Notification.java
+        │   │       ├── NotificationService.java
+        │   │       ├── PushNotification.java
+        │   │       └── SMSNotification.java
         │   └── Singleton
         │       ├── Basic
         │       │   ├── SingletonDemo.java
@@ -98,6 +123,8 @@ SUM:                           143            913            402           2740
         │   │       ├── testRandNum.java
         │   │       └── VC.pdf
         │   └── Palin.java
+        ├── GUI
+        │   └── Main.java
         ├── LabEx
         │   ├── Collections
         │   │   ├── Ex1.java
@@ -240,15 +267,14 @@ SUM:                           143            913            402           2740
                     ├── AgeValidationDemo.java
                     └── AgeValidationException.java
 
-70 directories, 148 files
+75 directories, 170 files
 
 ```
 </details>
-
 ------
 
 <div align="center">
   <a href="https://nmdra.github.io"> 🌎 nmdra.github.io</a> |
   <a href="https://github.com/nmdra"> 👨‍💻 Github</a> |
-  <a href="https://twitter.com/nimendra_"> 🐦 Twitter</a> |
+  <a href="https://twitter.com/nimendra_"> 🐦 Twitter</a>
 </div>
