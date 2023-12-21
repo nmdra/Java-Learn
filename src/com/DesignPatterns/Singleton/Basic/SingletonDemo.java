@@ -1,12 +1,13 @@
 package DesignPatterns.Singleton.Basic;
 
-import DesignPatterns.Singleton.Basic.Singleton;
-
 public class SingletonDemo {
     public static void main(String[] args) {
-        System.out.println("If you see the same value, then singleton was reused (yay!)" + "\n" +
-                "If you see different values, then 2 singletons were created (booo!!)" + "\n\n" +
-                "RESULT:" + "\n");
+        System.out.println("""
+                If you see the same value, then singleton was reused (yay!)
+                If you see different values, then 2 singletons were created (boo!!)
+
+                RESULT:
+                """);
 
         Singleton singleton = Singleton.getInstance("FOO");
         Singleton anotherSingleton = Singleton.getInstance("BAR");

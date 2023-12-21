@@ -1,17 +1,17 @@
 # Java Learn
 
 Last Update
-Wed 20 Dec 2023 19:58:55 +0530
+Thu 21 Dec 2023 20:07:57 +0530
 
 ```Bash
 
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Java                           164            966            433           2934
+Java                           199           1076            496           3272
 Text                             1              0              0              4
 -------------------------------------------------------------------------------
-SUM:                           165            966            433           2938
+SUM:                           200           1076            496           3276
 -------------------------------------------------------------------------------
 
 ```
@@ -27,7 +27,6 @@ SUM:                           165            966            433           2938
     └── com
         ├── basic
         │   ├── commandArgs.java
-        │   ├── EnumExample.java
         │   ├── ExceptionHandling
         │   │   ├── CheckedExample.java
         │   │   ├── CustomException.java
@@ -70,6 +69,51 @@ SUM:                           165            966            433           2938
         │   └── Vector
         │       └── VectorEx.java
         ├── DesignPatterns
+        │   ├── AbstractFactory
+        │   │   ├── Example1
+        │   │   │   ├── factories
+        │   │   │   │   ├── AsusManufacturer.java
+        │   │   │   │   ├── Company.java
+        │   │   │   │   └── MsiManufacturer.java
+        │   │   │   ├── MainApp.java
+        │   │   │   └── products
+        │   │   │       ├── AsusGpu.java
+        │   │   │       ├── AsusMonitor.java
+        │   │   │       ├── Gpu.java
+        │   │   │       ├── Monitor.java
+        │   │   │       ├── MsiGpu.java
+        │   │   │       ├── MsiMonitor.java
+        │   │   │       └── Product.java
+        │   │   ├── Example2
+        │   │   │   ├── AbstractFactory.java
+        │   │   │   ├── AbstractFactoryPatternDemo.java
+        │   │   │   ├── Blue.java
+        │   │   │   ├── Circle.java
+        │   │   │   ├── ColorFactory.java
+        │   │   │   ├── Color.java
+        │   │   │   ├── FactoryProducer.java
+        │   │   │   ├── Green.java
+        │   │   │   ├── Rectangle.java
+        │   │   │   ├── Red.java
+        │   │   │   ├── ShapeFactory.java
+        │   │   │   ├── Shape.java
+        │   │   │   └── Square.java
+        │   │   └── Example3
+        │   │       ├── App
+        │   │       │   └── Application.java
+        │   │       ├── Buttons
+        │   │       │   ├── Button.java
+        │   │       │   ├── LinuxButton.java
+        │   │       │   └── WindowsButton.java
+        │   │       ├── Checkboxes
+        │   │       │   ├── Checkbox.java
+        │   │       │   ├── LinuxCheckbox.java
+        │   │       │   └── WindowsCheckbox.java
+        │   │       ├── Demo.java
+        │   │       └── Factories
+        │   │           ├── GUIFactory.java
+        │   │           ├── LinuxFactory.java
+        │   │           └── WindowsFactory.java
         │   ├── Factory
         │   │   ├── FactoryMethod
         │   │   │   ├── CarFactory.java
@@ -157,7 +201,8 @@ SUM:                           165            966            433           2938
         │   │   └── Manager.java
         │   ├── Enums
         │   │   ├── A.java
-        │   │   └── Basic.java
+        │   │   ├── Basic.java
+        │   │   └── EnumExample.java
         │   ├── Generics
         │   │   ├── Examples
         │   │   │   ├── BoundType.java
@@ -267,11 +312,12 @@ SUM:                           165            966            433           2938
                     ├── AgeValidationDemo.java
                     └── AgeValidationException.java
 
-75 directories, 170 files
+85 directories, 205 files
 
 ```
 </details>
-------
+
+---
 
 <div align="center">
   <a href="https://nmdra.github.io"> 🌎 nmdra.github.io</a> |
