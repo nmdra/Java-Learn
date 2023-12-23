@@ -33,7 +33,17 @@ public final class Singleton {
             if (instance == null) {
                 instance = new Singleton(value);
             }
-            return instance;
+        return instance;
+//            if (result == null) {
+//                synchronized (Singleton.class) {
+//                    result = instance;
+//                    if (result == null) {
+//                        instance = result = new Singleton(value);
+//                    }
+//                }
+//            }
+//
+//            return result;
         }
     }
 }

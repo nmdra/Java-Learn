@@ -14,5 +14,7 @@ public class SingletonDemo {
 
         System.out.println(singleton.value);
         System.out.println(anotherSingleton.value);
+        System.out.println(singleton.hashCode());
+        System.out.println(anotherSingleton.hashCode());
     }
 }

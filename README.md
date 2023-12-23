@@ -1,17 +1,17 @@
 # Java Learn
 
 Last Update
-Thu 21 Dec 2023 20:07:57 +0530
+Sat 23 Dec 2023 12:14:21 +0530
 
 ```Bash
 
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Java                           199           1076            496           3272
+Java                           218           1173            512           3551
 Text                             1              0              0              4
 -------------------------------------------------------------------------------
-SUM:                           200           1076            496           3276
+SUM:                           219           1173            512           3555
 -------------------------------------------------------------------------------
 
 ```
@@ -70,6 +70,7 @@ SUM:                           200           1076            496           3276
         │       └── VectorEx.java
         ├── DesignPatterns
         │   ├── AbstractFactory
+        │   │   ├── Abstract-Factory-UML.png
         │   │   ├── Example1
         │   │   │   ├── factories
         │   │   │   │   ├── AsusManufacturer.java
@@ -114,6 +115,30 @@ SUM:                           200           1076            496           3276
         │   │           ├── GUIFactory.java
         │   │           ├── LinuxFactory.java
         │   │           └── WindowsFactory.java
+        │   ├── Command
+        │   │   ├── command.gif
+        │   │   ├── Example1
+        │   │   │   ├── commands
+        │   │   │   │   ├── Command.java
+        │   │   │   │   ├── OpenCloseCurtainsCommand.java
+        │   │   │   │   └── SwitchLightsCommand.java
+        │   │   │   ├── components
+        │   │   │   │   ├── Component.java
+        │   │   │   │   ├── Curtains.java
+        │   │   │   │   ├── FloorLamp.java
+        │   │   │   │   ├── Light.java
+        │   │   │   │   └── Room.java
+        │   │   │   └── MainApp.java
+        │   │   └── Example2
+        │   │       ├── Command
+        │   │       │   ├── CommandHistory.java
+        │   │       │   ├── Command.java
+        │   │       │   ├── CopyCommand.java
+        │   │       │   ├── CutCommand.java
+        │   │       │   └── PasteCommand.java
+        │   │       ├── Demo.java
+        │   │       └── Editor
+        │   │           └── Editor.java
         │   ├── Factory
         │   │   ├── FactoryMethod
         │   │   │   ├── CarFactory.java
@@ -131,6 +156,7 @@ SUM:                           200           1076            496           3276
         │   │   │   ├── Restaurant.java
         │   │   │   ├── VeggieBurger.java
         │   │   │   └── VeggieBurgerRestaurant.java
+        │   │   ├── Factory-Method-UML.jpeg
         │   │   └── SimpleFactory
         │   │       ├── EmailNotification.java
         │   │       ├── NotificationFactory.java
@@ -145,11 +171,9 @@ SUM:                           200           1076            496           3276
         │       ├── BasicMulti
         │       │   ├── DemoMultiThread.java
         │       │   └── Singleton.java
-        │       ├── ThreadSafeSingleton
-        │       │   ├── DemoMultiThread.java
-        │       │   └── Singleton.java
-        │       └── ThreadSafeSingleton2
-        │           ├── Demo.java
+        │       ├── Singleton-UML.jpeg
+        │       └── ThreadSafeSingleton
+        │           ├── DemoMultiThread.java
         │           └── Singleton.java
         ├── Extra
         │   ├── ArrayManipulation.java
@@ -177,6 +201,13 @@ SUM:                           200           1076            496           3276
         │   │   ├── Ex3.java
         │   │   ├── Ex4.java
         │   │   └── Student.java
+        │   ├── DesignPatterns
+        │   │   └── Singleton
+        │   │       ├── SingletonDemo.java
+        │   │       ├── Singleton.java
+        │   │       ├── SingletonThreadDemo.java
+        │   │       ├── SingletonThread.java
+        │   │       └── ThreadImpl.java
         │   ├── Lab1
         │   │   ├── Lab1Ex1.java
         │   │   ├── Lab1Ex2.java
@@ -312,7 +343,7 @@ SUM:                           200           1076            496           3276
                     ├── AgeValidationDemo.java
                     └── AgeValidationException.java
 
-85 directories, 205 files
+93 directories, 228 files
 
 ```
 </details>
