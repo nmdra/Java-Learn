@@ -1,0 +1,24 @@
+package DesignPatterns.AbstractFactory.Example3.App;
+
+import DesignPatterns.AbstractFactory.Example3.Buttons.Button;
+import DesignPatterns.AbstractFactory.Example3.Checkboxes.Checkbox;
+import DesignPatterns.AbstractFactory.Example3.Factories.GUIFactory;
+
+/**
+ * Factory users don't care which concrete factory they use since they work with
+ * factories and products through abstract interfaces.
+ */
+public class Application {
+    private Button button;
+    private Checkbox checkbox;
+
+    public Application(GUIFactory factory) {
+        button = factory.createButton();
+        checkbox = factory.createCheckbox();
+    }
+
+    public void paint() {
+        button.paint();
+        checkbox.paint();
+    }
+}

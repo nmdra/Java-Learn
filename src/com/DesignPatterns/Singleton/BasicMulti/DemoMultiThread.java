@@ -18,6 +18,7 @@ public class DemoMultiThread {
         public void run() {
             Singleton singleton = Singleton.getInstance("FOO");
             System.out.println(singleton.value);
+            System.out.println(singleton.hashCode());
         }
     }
 
@@ -26,6 +27,7 @@ public class DemoMultiThread {
         public void run() {
             Singleton singleton = Singleton.getInstance("BAR");
             System.out.println(singleton.value);
+            System.out.println(singleton.hashCode());
         }
     }
 }
