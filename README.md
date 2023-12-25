@@ -11,7 +11,7 @@ Language                     files          blank        comment           code
 Java                           280           1445            530           4220
 Text                             1              0              0              4
 -------------------------------------------------------------------------------
-SUM:                           281           1445            530           4224
+SUM:                           281           1445            530           4224  
 -------------------------------------------------------------------------------
 
 ```
@@ -27,6 +27,7 @@ SUM:                           281           1445            530           4224
     └── com
         ├── basic
         │   ├── commandArgs.java
+        │   ├── EnumExample.java
         │   ├── ExceptionHandling
         │   │   ├── CheckedExample.java
         │   │   ├── CustomException.java
