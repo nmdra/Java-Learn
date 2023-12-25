@@ -1,17 +1,17 @@
 # Java Learn
 
 Last Update
-Sat 23 Dec 2023 12:14:21 +0530
+Tue 26 Dec 2023 00:26:09 +0530
 
 ```Bash
 
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Java                           218           1173            512           3551
+Java                           280           1445            530           4220
 Text                             1              0              0              4
 -------------------------------------------------------------------------------
-SUM:                           219           1173            512           3555
+SUM:                           281           1445            530           4224
 -------------------------------------------------------------------------------
 
 ```
@@ -115,8 +115,35 @@ SUM:                           219           1173            512           3555
         │   │           ├── GUIFactory.java
         │   │           ├── LinuxFactory.java
         │   │           └── WindowsFactory.java
+        │   ├── Bridge
+        │   │   ├── Bridge.jpg
+        │   │   ├── Example1
+        │   │   │   ├── Assemble.java
+        │   │   │   ├── AutoMobile.java
+        │   │   │   ├── Bus.java
+        │   │   │   ├── Demo.java
+        │   │   │   ├── Produce.java
+        │   │   │   └── WorkShop.java
+        │   │   ├── Example2
+        │   │   │   ├── AdvancedRemoteControl.java
+        │   │   │   ├── Demo.java
+        │   │   │   ├── Device.java
+        │   │   │   ├── RemoteControl.java
+        │   │   │   ├── SamsungTV.java
+        │   │   │   └── SonyTV.java
+        │   │   └── Example3
+        │   │       ├── abstractions
+        │   │       │   ├── AmericanRestaurant.java
+        │   │       │   ├── ItalianRestaurant.java
+        │   │       │   └── Restaurant.java
+        │   │       ├── implementations
+        │   │       │   ├── PepperoniPizza.java
+        │   │       │   ├── Pizza.java
+        │   │       │   └── VeggiePizza.java
+        │   │       └── MainApp.java
         │   ├── Command
-        │   │   ├── command.gif
+        │   │   ├── Command-GOF.jpg
+        │   │   ├── Command.jpg
         │   │   ├── Example1
         │   │   │   ├── commands
         │   │   │   │   ├── Command.java
@@ -129,16 +156,31 @@ SUM:                           219           1173            512           3555
         │   │   │   │   ├── Light.java
         │   │   │   │   └── Room.java
         │   │   │   └── MainApp.java
-        │   │   └── Example2
-        │   │       ├── Command
-        │   │       │   ├── CommandHistory.java
-        │   │       │   ├── Command.java
-        │   │       │   ├── CopyCommand.java
-        │   │       │   ├── CutCommand.java
-        │   │       │   └── PasteCommand.java
-        │   │       ├── Demo.java
-        │   │       └── Editor
-        │   │           └── Editor.java
+        │   │   ├── Example2
+        │   │   │   ├── Command
+        │   │   │   │   ├── CommandHistory.java
+        │   │   │   │   ├── Command.java
+        │   │   │   │   ├── CopyCommand.java
+        │   │   │   │   ├── CutCommand.java
+        │   │   │   │   └── PasteCommand.java
+        │   │   │   ├── Demo.java
+        │   │   │   └── Editor
+        │   │   │       └── Editor.java
+        │   │   ├── Example3
+        │   │   │   ├── Command.java
+        │   │   │   ├── KitchenLight.java
+        │   │   │   ├── Light.java
+        │   │   │   ├── LightOffCommand.java
+        │   │   │   ├── LightOnCommand.java
+        │   │   │   ├── LivingRoomLight.java
+        │   │   │   └── Test.java
+        │   │   └── Example4
+        │   │       ├── CustomerService.java
+        │   │       ├── FX
+        │   │       │   ├── AddCustomerCommand.java
+        │   │       │   ├── Button.java
+        │   │       │   └── Command.java
+        │   │       └── ServiceDemo.java
         │   ├── Factory
         │   │   ├── FactoryMethod
         │   │   │   ├── CarFactory.java
@@ -164,17 +206,62 @@ SUM:                           219           1173            512           3555
         │   │       ├── NotificationService.java
         │   │       ├── PushNotification.java
         │   │       └── SMSNotification.java
-        │   └── Singleton
-        │       ├── Basic
-        │       │   ├── SingletonDemo.java
-        │       │   └── Singleton.java
-        │       ├── BasicMulti
-        │       │   ├── DemoMultiThread.java
-        │       │   └── Singleton.java
-        │       ├── Singleton-UML.jpeg
-        │       └── ThreadSafeSingleton
-        │           ├── DemoMultiThread.java
-        │           └── Singleton.java
+        │   ├── Singleton
+        │   │   ├── Basic
+        │   │   │   ├── SingletonDemo.java
+        │   │   │   └── Singleton.java
+        │   │   ├── BasicMulti
+        │   │   │   ├── DemoMultiThread.java
+        │   │   │   └── Singleton.java
+        │   │   ├── Singleton-UML.jpeg
+        │   │   └── ThreadSafeSingleton
+        │   │       ├── DemoMultiThread.java
+        │   │       └── Singleton.java
+        │   ├── Strategy
+        │   │   ├── Example1
+        │   │   │   ├── Compress
+        │   │   │   │   ├── Compressor.java
+        │   │   │   │   ├── JpegCompressor.java
+        │   │   │   │   └── WebpCompresser.java
+        │   │   │   ├── Demo.java
+        │   │   │   ├── Filter
+        │   │   │   │   ├── AnimeFilter.java
+        │   │   │   │   ├── BWFilter.java
+        │   │   │   │   └── Filter.java
+        │   │   │   └── ImageModify.java
+        │   │   ├── Example2
+        │   │   │   ├── Duck.java
+        │   │   │   ├── FlyNoWay.java
+        │   │   │   ├── FlyRocketPower.java
+        │   │   │   ├── FlyWithWings.java
+        │   │   │   ├── IFlyBehaviour.java
+        │   │   │   ├── IQuackBehaviour.java
+        │   │   │   ├── ModelDuck.java
+        │   │   │   ├── ModelQuack.java
+        │   │   │   ├── MollardDuck.java
+        │   │   │   ├── Quack.java
+        │   │   │   └── TestDuck.java
+        │   │   ├── Strategy-GOF.jpg
+        │   │   └── Strategy.jpg
+        │   └── Template
+        │       ├── Example1
+        │       │   ├── Beverages.java
+        │       │   ├── Coffee.java
+        │       │   ├── Demo.java
+        │       │   └── Tea.java
+        │       ├── Example2
+        │       │   ├── BaseGameLoader.java
+        │       │   ├── DiabloLoader.java
+        │       │   ├── MainApp.java
+        │       │   └── WorldOfWarcraftLoader.java
+        │       ├── Example3
+        │       │   ├── Demo.java
+        │       │   └── Template
+        │       │       ├── AuditTrail.java
+        │       │       ├── Task.java
+        │       │       └── TransferMoneyTask.java
+        │       ├── Template-GOF.jpg
+        │       └── Template.jpg
         ├── Extra
         │   ├── ArrayManipulation.java
         │   ├── fibo.java
@@ -343,7 +430,7 @@ SUM:                           219           1173            512           3555
                     ├── AgeValidationDemo.java
                     └── AgeValidationException.java
 
-93 directories, 228 files
+112 directories, 296 files
 
 ```
 </details>
