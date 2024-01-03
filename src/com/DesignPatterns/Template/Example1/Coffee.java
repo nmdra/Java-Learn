@@ -4,11 +4,11 @@ public class Coffee extends Beverages {
 
 	@Override
 	void brew() {
-		System.out.println("Stripping coffe through filter");
+		System.out.println("Stripping coffee through filter");
 	}
 
 	@Override
 	void addCondiments() {
-		System.out.println("Add Suger and milk");
+		System.out.println("Add Sugar and milk");
 	}
 }

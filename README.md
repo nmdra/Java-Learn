@@ -1,17 +1,17 @@
 # Java Learn
 
 Last Update
-Tue 26 Dec 2023 00:26:09 +0530
+Wed 03 Jan 2024 17:23:34 +0530
 
 ```Bash
 
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Java                           280           1445            530           4220
-Text                             1              0              0              4
+Java                           327           1632            617           4932
+Text                             3              1              0             16
 -------------------------------------------------------------------------------
-SUM:                           281           1445            530           4224  
+SUM:                           330           1633            617           4948
 -------------------------------------------------------------------------------
 
 ```
@@ -27,7 +27,6 @@ SUM:                           281           1445            530           4224
     └── com
         ├── basic
         │   ├── commandArgs.java
-        │   ├── EnumExample.java
         │   ├── ExceptionHandling
         │   │   ├── CheckedExample.java
         │   │   ├── CustomException.java
@@ -116,6 +115,33 @@ SUM:                           281           1445            530           4224
         │   │           ├── GUIFactory.java
         │   │           ├── LinuxFactory.java
         │   │           └── WindowsFactory.java
+        │   ├── Adapter
+        │   │   ├── Adapter.jpg
+        │   │   ├── Example1
+        │   │   │   ├── EmailClient.java
+        │   │   │   ├── EmailProvider.java
+        │   │   │   └── Gmail
+        │   │   │       └── GmailClient.java
+        │   │   ├── Example2
+        │   │   │   ├── adapters
+        │   │   │   │   └── SquarePegAdapter.java
+        │   │   │   ├── Demo.java
+        │   │   │   ├── OutputDemo.txt
+        │   │   │   ├── round
+        │   │   │   │   ├── RoundHole.java
+        │   │   │   │   └── RoundPeg.java
+        │   │   │   └── square
+        │   │   │       └── SquarePeg.java
+        │   │   └── Example3
+        │   │       ├── avaFilters
+        │   │       │   └── Caramel.java
+        │   │       ├── CaramelAdapter.java
+        │   │       ├── CaramelFilter.java
+        │   │       ├── Demo.java
+        │   │       ├── Filter.java
+        │   │       ├── Image.java
+        │   │       ├── ImageView.java
+        │   │       └── VividFilter.java
         │   ├── Bridge
         │   │   ├── Bridge.jpg
         │   │   ├── Example1
@@ -142,6 +168,43 @@ SUM:                           281           1445            530           4224
         │   │       │   ├── Pizza.java
         │   │       │   └── VeggiePizza.java
         │   │       └── MainApp.java
+        │   ├── Builder
+        │   │   ├── Example1
+        │   │   │   ├── Director.java
+        │   │   │   ├── MainApp.java
+        │   │   │   └── model
+        │   │   │       ├── Builder.java
+        │   │   │       ├── CarBuilder.java
+        │   │   │       └── Car.java
+        │   │   ├── Example2
+        │   │   │   ├── Demo.java
+        │   │   │   ├── MovieBuilder.java
+        │   │   │   ├── Movie.java
+        │   │   │   ├── PdfDocumentBuilder.java
+        │   │   │   ├── PdfDocument.java
+        │   │   │   ├── PresentationBuilder.java
+        │   │   │   ├── PresentationFormat.java
+        │   │   │   ├── Presentation.java
+        │   │   │   └── Slide.java
+        │   │   ├── Example3
+        │   │   │   ├── builders
+        │   │   │   │   ├── Builder.java
+        │   │   │   │   ├── CarBuilder.java
+        │   │   │   │   └── CarManualBuilder.java
+        │   │   │   ├── cars
+        │   │   │   │   ├── Car.java
+        │   │   │   │   ├── CarType.java
+        │   │   │   │   └── Manual.java
+        │   │   │   ├── components
+        │   │   │   │   ├── Engine.java
+        │   │   │   │   ├── GPSNavigator.java
+        │   │   │   │   ├── Transmission.java
+        │   │   │   │   └── TripComputer.java
+        │   │   │   ├── Demo.java
+        │   │   │   ├── director
+        │   │   │   │   └── Director.java
+        │   │   │   └── OutputDemo.txt
+        │   │   └── uml-of-builedr.jpg
         │   ├── Command
         │   │   ├── Command-GOF.jpg
         │   │   ├── Command.jpg
@@ -290,6 +353,12 @@ SUM:                           281           1445            530           4224
         │   │   ├── Ex4.java
         │   │   └── Student.java
         │   ├── DesignPatterns
+        │   │   ├── AbstractFactory
+        │   │   │   ├── Rectangle.java
+        │   │   │   ├── ShapeFactory.java
+        │   │   │   ├── Shape.java
+        │   │   │   ├── Square.java
+        │   │   │   └── Test.java
         │   │   └── Singleton
         │   │       ├── SingletonDemo.java
         │   │       ├── Singleton.java
@@ -431,7 +500,7 @@ SUM:                           281           1445            530           4224
                     ├── AgeValidationDemo.java
                     └── AgeValidationException.java
 
-112 directories, 296 files
+131 directories, 347 files
 
 ```
 </details>
