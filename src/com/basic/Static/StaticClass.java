@@ -1,4 +1,4 @@
-package basic;
+package basic.Static;
 
 public class StaticClass {
     private static String s= "Javatpoint";

@@ -1,6 +1,5 @@
 /* Develop a Java program that prompts the user to enter a series of numbers (terminated by a negative number) and then computes and displays the average of those numbers.  Hint: Use Scanner class to accept keyboard inputs */
 
-
 package Tutorials.Tutorial_1;
 
 import java.util.Scanner;

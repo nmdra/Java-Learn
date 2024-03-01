@@ -9,7 +9,7 @@ public class Cat extends Animal {
     }
 
     public Cat(boolean veg, String food, int legs, String color) {
-        super(veg, food, legs);
+        super(veg, food, legs); // Super
         this.color = color;
     }
 

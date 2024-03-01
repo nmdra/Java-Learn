@@ -8,7 +8,5 @@ public class animalTest {
         System.out.println("Cat eats " + cat.getEats());
         System.out.println("Cat has " + cat.getNoOfLegs() + " legs.");
         System.out.println("Cat color is " + cat.getColor());
-
     }
-
 }

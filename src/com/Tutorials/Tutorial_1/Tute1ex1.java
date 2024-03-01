@@ -1,7 +1,5 @@
 // Create a Java program that reads a positive integer (n) from the user and calculates the factorial of that number(n!) using a loop.
 
-// package Java.Tutorial;
-
 package Tutorials.Tutorial_1;
 
 import java.util.Scanner;
@@ -21,7 +19,7 @@ class Tute1ex1 {
         // 5! --> 5 * 4! --> 
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int num;
         // creating the instance of class Scanner
         Scanner getNum = new Scanner(System.in); 
