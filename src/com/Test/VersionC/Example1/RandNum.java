@@ -1,4 +1,4 @@
-package Test.VersionC;
+package Test.VersionC.Example1;
 
 import java.util.Random;
 

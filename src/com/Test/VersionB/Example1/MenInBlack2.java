@@ -1,4 +1,4 @@
-package Test.VersionB;
+package Test.VersionB.Example1;
 
 import java.util.Random;
 
@@ -12,7 +12,7 @@ public class MenInBlack2 extends MenInBlack
 
     public void kill()
     {
-        Alien arr[] = ap.getAliens();
+        Alien[] arr = ap.getAliens();
 
         for (Alien alien : arr) {
             Random rand = new Random();

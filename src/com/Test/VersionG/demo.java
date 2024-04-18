@@ -12,7 +12,7 @@ public class demo {
 //		emp.Print();
 
         mg.Read();
-        mg.Read();
+//        mg.Read();
 
 
 

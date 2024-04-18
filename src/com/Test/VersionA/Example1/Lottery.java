@@ -1,4 +1,4 @@
-package Test.VersionA;
+package Test.VersionA.Example1;
 
 import java.util.ArrayList;
 import java.util.Random;

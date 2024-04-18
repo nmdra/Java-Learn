@@ -18,23 +18,19 @@ public class Employee
         this.name = name;
         this.address = address;
     }
-
     public void Read()
     {
-
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter the EID : ");
+        System.out.print("Enter the EID: ");
         this.Empid = sc.next();
 
-        System.out.print("Enter the name : ");
+        System.out.print("Enter the name: ");
         this.name = sc.next();
 
-        System.out.print("Enter the Address : ");
+        System.out.print("Enter the Address: ");
         this.address = sc.next();
-
     }
-
     public void Print()
     {
         System.out.println("Employee ID : "+this.Empid);
@@ -42,6 +38,3 @@ public class Employee
         System.out.println("Employee address : "+this.address);
     }
 }
-
-
-

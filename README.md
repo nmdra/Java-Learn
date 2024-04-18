@@ -1,17 +1,18 @@
 # Java Learn
 
 Last Update
-Wed 03 Jan 2024 17:23:34 +0530
+Thu 18 Apr 2024 22:34:44 +0530
 
 ```Bash
 
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Java                           327           1632            617           4932
+Java                           363           1846            644           5574
+Markdown                         2             53              0            191
 Text                             3              1              0             16
 -------------------------------------------------------------------------------
-SUM:                           330           1633            617           4948
+SUM:                           368           1900            644           5781
 -------------------------------------------------------------------------------
 
 ```
@@ -33,17 +34,18 @@ SUM:                           330           1633            617           4948
         │   │   ├── ExceptionHandling.java
         │   │   └── UncheckedExample.java
         │   ├── fundamental
-        │   │   ├── Basic.java
-        │   │   └── ExceptionHandling
-        │   │       ├── CustomException.java
-        │   │       └── ExceptionHandling.java
+        │   │   └── Basic.java
         │   ├── IO
         │   │   ├── bufReader.java
         │   │   ├── Monster.txt
         │   │   └── newFile.java
         │   ├── LambdaExpression
         │   │   └── LambdaFunctions.java
-        │   ├── StaticClass.java
+        │   ├── Static
+        │   │   ├── StaticClass.java
+        │   │   ├── StaticExampleDemo.java
+        │   │   ├── StaticNote.md
+        │   │   └── StaticVar.java
         │   └── Strings
         │       ├── Comparison.java
         │       ├── Methods.java
@@ -373,14 +375,16 @@ SUM:                           330           1633            617           4948
         │   │   ├── Lab1Ex5.java
         │   │   ├── Lab1Ex6.java
         │   │   └── Lab1Ex7.java
-        │   └── Lab2
-        │       ├── Lab2Ex1.java
-        │       ├── Lab2Ex2.java
-        │       ├── Lab2Ex3.java
-        │       ├── Lab2Ex4.java
-        │       └── Lab2Ex5
-        │           ├── EvenOddNumber.java
-        │           └── NumCheck.java
+        │   ├── Lab2
+        │   │   ├── Lab2Ex1.java
+        │   │   ├── Lab2Ex2.java
+        │   │   ├── Lab2Ex3.java
+        │   │   ├── Lab2Ex4.java
+        │   │   └── Lab2Ex5
+        │   │       ├── EvenOddNumber.java
+        │   │       └── NumCheck.java
+        │   └── Lab3
+        │       └── Ex04.java
         ├── OOP
         │   ├── AbstractClasses
         │   │   ├── Developer.java
@@ -412,10 +416,18 @@ SUM:                           330           1633            617           4948
         │   │       ├── GenericTest.java
         │   │       └── WildcardExample.java
         │   ├── Inheritance
-        │   │   └── Animal
-        │   │       ├── Animal.java
-        │   │       ├── animalTest.java
-        │   │       └── Cat.java
+        │   │   ├── Animal
+        │   │   │   ├── Animal.java
+        │   │   │   ├── animalTest.java
+        │   │   │   └── Cat.java
+        │   │   ├── Compare
+        │   │   │   ├── compDemo.java
+        │   │   │   ├── Point.java
+        │   │   │   └── ThreePoint.java
+        │   │   ├── Inheritance.md
+        │   │   ├── Inheritance.png
+        │   │   └── Multiple
+        │   │       └── MultipleTest.java
         │   ├── Interfaces
         │   │   ├── Cars
         │   │   │   ├── Brake.java
@@ -454,6 +466,52 @@ SUM:                           330           1633            617           4948
         │   │       └── Square.java
         │   └── Wrapper
         │       └── WrapperClass.java
+        ├── Test
+        │   ├── Questions
+        │   ├── VersionA
+        │   │   ├── Example1
+        │   │   │   ├── Lottery.java
+        │   │   │   └── lotteryTest.java
+        │   │   └── Example2
+        │   │       ├── Lottery2.java
+        │   │       └── Lottery2Test.java
+        │   ├── VersionB
+        │   │   ├── Example1
+        │   │   │   ├── Alien.java
+        │   │   │   ├── AlienPack.java
+        │   │   │   ├── alienTest.java
+        │   │   │   ├── MarshmalloAlien.java
+        │   │   │   ├── MenInBlack2.java
+        │   │   │   ├── MenInBlack.java
+        │   │   │   ├── OrgeAlien.java
+        │   │   │   └── SnakeAlien.java
+        │   │   └── Example2
+        │   │       ├── Alien.java
+        │   │       ├── AlienPack.java
+        │   │       ├── MarshmalloAlien.java
+        │   │       ├── OgreAlien.java
+        │   │       └── SnakeAlien.java
+        │   ├── VersionC
+        │   │   ├── Example1
+        │   │   │   ├── RandNum.java
+        │   │   │   └── RandNumTest.java
+        │   │   └── Example2
+        │   │       └── RandNum2.java
+        │   ├── VersionD
+        │   │   ├── arrayTest.java
+        │   │   └── CharArray.java
+        │   ├── VersionE
+        │   │   ├── InvalidITNumberException.java
+        │   │   ├── student.java
+        │   │   └── studentTest.java
+        │   ├── VersionF
+        │   │   ├── AlarmClock.java
+        │   │   ├── mainClock.java
+        │   │   └── timeException.java
+        │   └── VersionG
+        │       ├── demo.java
+        │       ├── Employee.java
+        │       └── Manager.java
         ├── Threads
         │   ├── Sync
         │   │   ├── Demo.java
@@ -500,7 +558,7 @@ SUM:                           330           1633            617           4948
                     ├── AgeValidationDemo.java
                     └── AgeValidationException.java
 
-131 directories, 347 files
+149 directories, 386 files
 
 ```
 </details>

@@ -1,4 +1,4 @@
-package Test.VersionA;
+package Test.VersionA.Example1;
 
 public class lotteryTest {
 

@@ -1,4 +1,4 @@
-package Test.VersionB;
+package Test.VersionB.Example1;
 
 public class AlienPack
 {
@@ -13,6 +13,7 @@ public class AlienPack
     {
         arr[index] = a;
     }
+
     public Alien[] getAliens()
     {
         return arr;

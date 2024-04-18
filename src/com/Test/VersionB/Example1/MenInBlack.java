@@ -1,4 +1,4 @@
-package Test.VersionB;
+package Test.VersionB.Example1;
 
 public class MenInBlack
 {
@@ -18,11 +18,10 @@ public class MenInBlack
 
     public void kill()
     {
-        Alien arr[] = ap.getAliens();
+        Alien[] arr = ap.getAliens();
 
-        for(int i =0 ; i<arr.length ; i++)
-        {
-            this.score = this.score + arr[i].getScore();
+        for (Alien alien : arr) {
+            this.score = this.score + alien.getScore();
         }
     }
 }

@@ -10,22 +10,19 @@ class student {
         this.name = name;
     }
 
-
-    void desplay()
+    void display()
     {
         try {
+            if (id.length()!=10 || !(id.substring(0, 2).toUpperCase().equals("IT"))) {
 
-
-            if (id.length()!=10||(id.substring(0,2).equals("IT"))==false && (id.substring(0,2).equals("it"))==false) {
-
-                throw  new InvalidITNumberException("invalis number");
+                throw  new InvalidITNumberException("Invalid number");
             }
             try {
                 long num =Integer.parseInt(id.substring(2,10));
             }
 
             catch (NumberFormatException e) {
-                throw  new InvalidITNumberException("invalis It number");
+                throw  new InvalidITNumberException("Invalid IT number");
             }
 
             System.out.println(id);
@@ -37,7 +34,6 @@ class student {
 
         }
     }
-
 
 }
 

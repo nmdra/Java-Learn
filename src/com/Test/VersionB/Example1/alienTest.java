@@ -1,4 +1,4 @@
-package Test.VersionB;
+package Test.VersionB.Example1;
 
 public class alienTest {
 
@@ -14,10 +14,10 @@ public class alienTest {
         MenInBlack AgentK = new MenInBlack(pack1);
         AgentK.kill();
         System.out.println( "Your score is " + AgentK.getScore());
-        MenInBlack2 AgentK2 = new MenInBlack2(pack1);
-        AgentK2.kill();
-        System.out.println( "Your score is " + AgentK2.getScore());
-
+//        MenInBlack2 AgentK2 = new MenInBlack2(pack1);
+//        AgentK2.kill();
+//        System.out.println( "Your score is " + AgentK2.getScore());
+//
     }
 
 }

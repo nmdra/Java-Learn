@@ -5,9 +5,24 @@ class Student{
     String ditno;
     String address;
 
+    public Student() {
+    }
+
     public Student(String name, String ditno, String address) {
         this.name = name;
         this.ditno = ditno;
+        this.address = address;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setDitno(String ditno) {
+        this.ditno = ditno;
+    }
+
+    public void setAddress(String address) {
         this.address = address;
     }
 
@@ -17,28 +32,16 @@ class Student{
         System.out.println("Address: " + address);
     }
 
-    void setName(String name){
-        this.name = name;
-    }
-
-    void setAddress(String address){
-        this.address = address;
-    }
-
-    void setDit(String ditno){
-        this.ditno = ditno;
-    }
-
     String getName(){
-        return this.name;
+        return name;
     }
 
     String getAddress(){
-        return this.address;
+        return address;
     }
 
     String getDit(){
-        return this.ditno;
+        return ditno;
     }
 
     String getDetails(){
@@ -48,15 +51,16 @@ class Student{
 
 public class Ex04 {
     public static void main(String[] args) {
+        Student student1 = new Student("Name", "123", "123 Main St");
+        Student student2 = new Student();
 
-        Student student1 = new Student("Kaveen", "123", "123 Main St");
-        Student student2 = new Student("Dinethma", "452", "456 Flower St");
-
-//        student1.setAddress("422 Flower road");
-//        student2.setName("Kaveen");
-//        student2.setDit("3242");
+        student2.setDitno("234");
+        student2.setName("Test");
+        student2.setAddress("Colombo");
 
         System.out.println(student1.getName());
+        System.out.println(student1.getAddress());
+        System.out.println(student1.getDit());
 
         System.out.println(student1.getDetails());
     }
