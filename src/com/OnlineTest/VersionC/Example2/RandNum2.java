@@ -1,4 +1,4 @@
-package Test.VersionC.Example2;
+package OnlineTest.VersionC.Example2;
 
 import java.util.Arrays;
 import java.util.Random;

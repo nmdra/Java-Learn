@@ -1,4 +1,4 @@
-package Test.VersionA.Example2;
+package OnlineTest.VersionA.Example2;
 
 public class Lottery2Test {
     public static void main(String[] args) {

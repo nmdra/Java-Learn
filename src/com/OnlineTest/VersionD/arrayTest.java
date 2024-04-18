@@ -1,4 +1,4 @@
-package Test.VersionD;
+package OnlineTest.VersionD;
 
 public class arrayTest {
     public static void main(String[] args) {

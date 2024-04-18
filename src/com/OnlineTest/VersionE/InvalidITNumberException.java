@@ -1,4 +1,4 @@
-package Test.VersionE;
+package OnlineTest.VersionE;
 
 public class InvalidITNumberException extends Exception {
 

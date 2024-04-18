@@ -1,4 +1,4 @@
-package Test.VersionA.Example3;
+package OnlineTest.VersionA.Example3;
 
 class Lottery3Test {
 

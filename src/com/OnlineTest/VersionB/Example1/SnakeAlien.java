@@ -1,4 +1,4 @@
-package Test.VersionB.Example1;
+package OnlineTest.VersionB.Example1;
 
 public class SnakeAlien implements Alien
 {

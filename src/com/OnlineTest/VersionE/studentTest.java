@@ -1,4 +1,4 @@
-package Test.VersionE;
+package OnlineTest.VersionE;
 
 public class studentTest {
     public static void main(String[] args)throws InvalidITNumberException{

@@ -87,19 +87,19 @@ NOTE:
 ```java
 public class Static {
 
-    // class Test  // ERROR
-    static class Test{
+    // class OnlineTest  // ERROR
+    static class OnlineTest{
         String name;
 
-        public Test(String name) {
+        public OnlineTest(String name) {
             this.name = name;
         }
     }
 
     public static void main(String[] args) {
-        Test a = new Test("Kunal");
+        OnlineTest a = new OnlineTest("Kunal");
 
-        Test b = new Test("Rahul");
+        OnlineTest b = new OnlineTest("Rahul");
 
         System.out.println(a.name); // Kunal
         System.out.println(b.name); // Rahul
@@ -112,4 +112,4 @@ The static keyword may modify the declaration of a member type C within the body
 Its effect is to declare that C is not an inner class. Just as a static method of T has no current instance of T in its
 body, C also has no current instance of T, nor does it have any lexically enclosing instances.
 Here, test does not have any instance of it's outer class Static. Neither does main.
-But main & Test can have instances of each other.
+But main & OnlineTest can have instances of each other.

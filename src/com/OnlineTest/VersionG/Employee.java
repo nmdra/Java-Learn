@@ -1,4 +1,4 @@
-package Test.VersionG;
+package OnlineTest.VersionG;
 
 import java.util.Scanner;
 public class Employee

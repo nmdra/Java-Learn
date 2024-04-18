@@ -1,4 +1,4 @@
-package Test.VersionB.Example2;
+package OnlineTest.VersionB.Example2;
 
 public class MarshmalloAlien implements Alien {
 

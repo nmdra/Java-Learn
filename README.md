@@ -240,7 +240,7 @@ SUM:                           371           1924            647           5869
         │   │   │   ├── LightOffCommand.java
         │   │   │   ├── LightOnCommand.java
         │   │   │   ├── LivingRoomLight.java
-        │   │   │   └── Test.java
+        │   │   │   └── OnlineTest.java
         │   │   └── Example4
         │   │       ├── CustomerService.java
         │   │       ├── FX
@@ -361,7 +361,7 @@ SUM:                           371           1924            647           5869
         │   │   │   ├── ShapeFactory.java
         │   │   │   ├── Shape.java
         │   │   │   ├── Square.java
-        │   │   │   └── Test.java
+        │   │   │   └── OnlineTest.java
         │   │   └── Singleton
         │   │       ├── SingletonDemo.java
         │   │       ├── Singleton.java
@@ -467,7 +467,7 @@ SUM:                           371           1924            647           5869
         │   │       └── Square.java
         │   └── Wrapper
         │       └── WrapperClass.java
-        ├── Test
+        ├── OnlineTest
         │   ├── Questions
         │   ├── VersionA
         │   │   ├── Example1
