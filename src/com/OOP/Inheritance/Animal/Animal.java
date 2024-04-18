@@ -23,7 +23,7 @@ public class Animal {
 		this.vegetarian = vegetarian;
 	}
 
-	public String getEats() {
+	protected String getEats() {
 		return eats;
 	}
 
