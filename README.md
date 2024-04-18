@@ -1,18 +1,18 @@
 # Java Learn
 
 Last Update
-Thu 18 Apr 2024 22:34:44 +0530
+Fri 19 Apr 2024 03:20:42 +0530
 
 ```Bash
 
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Java                           363           1846            644           5574
+Java                           366           1870            647           5662
 Markdown                         2             53              0            191
 Text                             3              1              0             16
 -------------------------------------------------------------------------------
-SUM:                           368           1900            644           5781
+SUM:                           371           1924            647           5869
 -------------------------------------------------------------------------------
 
 ```
@@ -53,7 +53,8 @@ SUM:                           368           1900            644           5781
         │       ├── Output.java
         │       ├── Performance.java
         │       ├── PrettyPrinting.java
-        │       └── StringBuild.java
+        │       ├── StringBuild.java
+        │       └── StringValueOfExample.java
         ├── Collections
         │   ├── ArrayList
         │   │   └── ArrayListEx.java
@@ -472,9 +473,12 @@ SUM:                           368           1900            644           5781
         │   │   ├── Example1
         │   │   │   ├── Lottery.java
         │   │   │   └── lotteryTest.java
-        │   │   └── Example2
-        │   │       ├── Lottery2.java
-        │   │       └── Lottery2Test.java
+        │   │   ├── Example2
+        │   │   │   ├── Lottery2.java
+        │   │   │   └── Lottery2Test.java
+        │   │   └── Example3
+        │   │       ├── Lottery3.java
+        │   │       └── Lottery3Test.java
         │   ├── VersionB
         │   │   ├── Example1
         │   │   │   ├── Alien.java
@@ -558,7 +562,7 @@ SUM:                           368           1900            644           5781
                     ├── AgeValidationDemo.java
                     └── AgeValidationException.java
 
-149 directories, 386 files
+150 directories, 389 files
 
 ```
 </details>

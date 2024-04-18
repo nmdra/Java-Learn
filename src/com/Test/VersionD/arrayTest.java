@@ -7,6 +7,5 @@ public class arrayTest {
         c.swapFirstandLast();
         c.displayatrry();
         c.displayString();
-
     }
 }
