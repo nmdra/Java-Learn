@@ -55,7 +55,7 @@ public class Ex04 {
         Student student2 = new Student();
 
         student2.setDitno("234");
-        student2.setName("Test");
+        student2.setName("OnlineTest");
         student2.setAddress("Colombo");
 
         System.out.println(student1.getName());
