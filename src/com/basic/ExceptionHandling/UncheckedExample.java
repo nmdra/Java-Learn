@@ -8,6 +8,7 @@ public class UncheckedExample {
     private static double divideNumbers(int numerator, int denominator) {
         if (denominator == 0) {
             throw new ArithmeticException("Cannot divide by zero.");
+//            throw new ArithmeticException();
         }
         return (double) numerator / denominator;
     }
@@ -17,3 +18,5 @@ public class UncheckedExample {
         System.out.println("Result: " + result);
     }
 }
+
+// https://www.javatpoint.com/difference-between-throw-and-throws-in-java
