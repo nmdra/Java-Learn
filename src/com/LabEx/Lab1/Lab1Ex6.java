@@ -10,11 +10,11 @@ class Lab1Ex6 {
 
             System.out.print("\t");
 
-            for(int raw = 0; raw < 5 - column; raw ++) {
+            for(int raw = 0; raw < 5 - column; raw++) {
                 System.out.print(" ");
             }
 
-            for(int raw = 0; raw < column; raw ++) {
+            for(int raw = 0; raw < column; raw++) {
                 System.out.print("* ");
             }
 

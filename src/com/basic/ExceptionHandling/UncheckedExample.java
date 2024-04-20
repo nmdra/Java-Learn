@@ -14,8 +14,12 @@ public class UncheckedExample {
     }
 
     public static void main(String[] args) {
-        double result = divideNumbers(10, 0); // No need for try-catch or 'throws'
-        System.out.println("Result: " + result);
+        try {
+            double result = divideNumbers(10, 0);
+            System.out.println("Result: " + result);
+        } catch (ArithmeticException e){
+            System.out.println(e.getMessage());
+        }
     }
 }
 
