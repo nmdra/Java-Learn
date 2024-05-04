@@ -1,5 +1,6 @@
 package OnlineTest.OnlineTest2.VersionG;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Manager extends Employee
@@ -30,7 +31,6 @@ public class Manager extends Employee
 
         try
         {
-
             System.out.print("Enter Department : ");
             this.Department= sc.next();
 
@@ -43,10 +43,10 @@ public class Manager extends Employee
             System.out.print("Enter Product No 3 : ");
             this.ProductNo3 = sc.nextInt();
         }
-        catch(Exception ex1)
-        {
-            System.out.println(ex1);
+        catch(Exception e) {
+            System.out.println("Exception: " + e);
         }
+
 
     }
 
