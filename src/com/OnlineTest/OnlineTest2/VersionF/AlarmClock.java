@@ -15,12 +15,13 @@ public class AlarmClock {
         this.seconds = 0;
     }
 
-    public void inputAlarm() throws timeException {
+    public void inputAlarm() {
 
         try
         {
             Scanner ss = new Scanner(System.in);
             System.out.println("Enter Time: ");
+
             this.Hour = ss.nextInt();
             this.minutes = ss.nextInt();
             this.seconds = ss.nextInt();
@@ -29,7 +30,10 @@ public class AlarmClock {
             {
                 throw new timeException("Time is wrong");
             }
-        } catch(NumberFormatException e)
+
+
+
+        } catch(timeException e)
         {
             System.out.println(e.getMessage());
             System.out.println("Invalid Time.");
@@ -44,6 +48,7 @@ public class AlarmClock {
         System.out.println("Hour :" + Hour);
         System.out.println("Minutes :" + minutes);
         System.out.println("Seconds :" + seconds);
+        System.out.println();
     }
 
     public void SetAlarm(int hour, int minutes, int seconds) {

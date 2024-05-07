@@ -17,10 +17,16 @@ import java.util.ArrayList;
             ac1.inputAlarm();
             ac2.SetAlarm(1,22,44);
 
-            for(AlarmClock clock : al){
-                clock.showAlarm();
-                System.out.println();
-            }
+//            for(AlarmClock clock : al){
+//                clock.showAlarm();
+//                System.out.println();
+//            }
+
+            // Using Lambda Expression
+//            al.forEach(Clock -> Clock.showAlarm());
+
+            // Using Method Reference
+            al.forEach(AlarmClock::showAlarm);
 
         }
 }

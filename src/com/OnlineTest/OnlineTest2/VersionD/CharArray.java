@@ -23,6 +23,5 @@ public class CharArray {
     void displayString() {
         System.out.println(String.valueOf(myCharArray));
     }
-
 }
 

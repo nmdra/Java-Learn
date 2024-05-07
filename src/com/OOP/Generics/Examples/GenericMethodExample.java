@@ -10,7 +10,7 @@ public class GenericMethodExample {
      * @param array the array of elements
      * @param index1 the index of the first element to swap
      * @param index2 the index of the second element to swap
-     * @param <T> the type of elements in the array (can be any type)
+     * @param T the type of elements in the array (can be any type)
      */
     public static <T> void swap(T[] array, int index1, int index2) {
         if (index1 < 0 || index1 >= array.length || index2 < 0 || index2 >= array.length) {

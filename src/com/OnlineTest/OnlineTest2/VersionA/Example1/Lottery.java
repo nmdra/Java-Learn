@@ -36,14 +36,11 @@ public class Lottery {
         int j = 0;
         
         for(int i = 0; i < 5; i++) {
-            
-            
+
             if(lotteryNumber[i] == userNumber[i]) {
                 j++;
                 al.add(lotteryNumber[i]);
             }
-            
-            
         }
         
         System.out.println("User's Numbers");
@@ -57,12 +54,11 @@ public class Lottery {
         
         for(int i = 0; i < 5; i++) {
             System.out.println(lotteryNumber[i] + "\t");
-            
         }
         
         System.out.println("Number of matching digits: " + j);
         
-        System.out.println("MAtching Digits: ");
+        System.out.println("Matching Digits: ");
         
         for(Integer x: al) {
             

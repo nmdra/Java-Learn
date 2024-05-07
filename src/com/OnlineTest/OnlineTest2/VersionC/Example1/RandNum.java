@@ -12,7 +12,6 @@ public class RandNum {
         for(int i=0;i<5;i++) {
             for(int j=0;j<5;j++) {
                 arr[i][j]=x.nextInt(x1);
-
             }
         }
     }
@@ -38,7 +37,5 @@ public class RandNum {
         }
         float avg= (float) tot /25;
         System.out.println("min :"+min+"\nmax :"+max+"\navg :"+avg);
-
-
     }
 }
