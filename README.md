@@ -1,18 +1,18 @@
 # Java Learn
 
 Last Update
-Sat 04 May 2024 20:30:52 +0530
+Fri 17 May 2024 00:09:31 +0530
 
 ```Bash
 
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Java                           387           1981            672           6023
+Java                           447           2211            737           6907
 Markdown                         2             53              0            191
 Text                             3              1              0             16
 -------------------------------------------------------------------------------
-SUM:                           392           2035            672           6230
+SUM:                           452           2265            737           7114
 -------------------------------------------------------------------------------
 
 ```
@@ -68,6 +68,7 @@ SUM:                           392           2035            672           6230
         │   │   └── LinkedListEx.java
         │   ├── PriorityQueue
         │   │   └── PriorityQueueEx.java
+        │   ├── Queue
         │   ├── Stack
         │   │   └── StackEx.java
         │   └── Vector
@@ -267,6 +268,22 @@ SUM:                           392           2035            672           6230
         │   │   │   ├── VeggieBurger.java
         │   │   │   └── VeggieBurgerRestaurant.java
         │   │   ├── Factory-Method-UML.jpeg
+        │   │   ├── Pizza
+        │   │   │   ├── Pizza
+        │   │   │   │   ├── ChicagoStylePizza
+        │   │   │   │   │   ├── ChicagoStyleCheesePizza.java
+        │   │   │   │   │   ├── ChicagoStyleClamPizza.java
+        │   │   │   │   │   └── ChicagoStyleVeggiePizza.java
+        │   │   │   │   ├── NYStylePizza
+        │   │   │   │   │   ├── NYStyleCheesePizza.java
+        │   │   │   │   │   ├── NYStyleClamPizza.java
+        │   │   │   │   │   └── NYStyleVeggiePizza.java
+        │   │   │   │   └── Pizza.java
+        │   │   │   ├── PizzaShop.java
+        │   │   │   └── PizzaStore
+        │   │   │       ├── ChicagoStylePizzaStore.java
+        │   │   │       ├── NYStylePizzaStore.java
+        │   │   │       └── PizzaStore.java
         │   │   └── SimpleFactory
         │   │       ├── EmailNotification.java
         │   │       ├── NotificationFactory.java
@@ -422,6 +439,9 @@ SUM:                           392           2035            672           6230
         │   │       ├── BookApp.java
         │   │       └── Book.java
         │   └── OnlineTest2
+        │       ├── GenericMethodProcessor
+        │       │   ├── GenericMethod.java
+        │       │   └── GenericTest.java
         │       ├── Questions
         │       ├── VersionA
         │       │   ├── Example1
@@ -552,6 +572,67 @@ SUM:                           392           2035            672           6230
         │   │       └── Square.java
         │   └── Wrapper
         │       └── WrapperClass.java
+        ├── PastPapers
+        │   ├── Y19OctVerB
+        │   │   └── Q04
+        │   │       ├── BScPrograms.java
+        │   │       ├── CodeFest.java
+        │   │       ├── GameFest.java
+        │   │       ├── IFestival.java
+        │   │       ├── IPrograms.java
+        │   │       ├── MScPrograms.java
+        │   │       ├── PHDPrograms.java
+        │   │       ├── PostGraduateStudents.java
+        │   │       ├── RoboFest.java
+        │   │       ├── Students.java
+        │   │       ├── TestStrategy.java
+        │   │       └── UndergraduteStudents.java
+        │   ├── Y22NovVerA
+        │   │   └── Q04
+        │   │       ├── Breakfast.java
+        │   │       ├── ChickenFlavour.java
+        │   │       ├── Dinner.java
+        │   │       ├── EggFlavour.java
+        │   │       ├── FishFlavour.java
+        │   │       ├── FortyFiveMinutes.java
+        │   │       ├── IPrepareDeliciously.java
+        │   │       ├── IPrepareQuickly.java
+        │   │       ├── Lunch.java
+        │   │       ├── Meal.java
+        │   │       ├── OneHour.java
+        │   │       ├── TestStrategy.java
+        │   │       └── ThirtyMinutes.java
+        │   ├── Y22NovVerB
+        │   │   ├── Q01
+        │   │   │   ├── Customer.java
+        │   │   │   ├── MainApp.java
+        │   │   │   └── RegisteredCus.java
+        │   │   └── Q02
+        │   │       ├── Company.java
+        │   │       └── Employee.java
+        │   ├── Y23JuneVerB
+        │   │   └── Q04
+        │   │       ├── BlastMissile.java
+        │   │       ├── HeatMissileSystem.java
+        │   │       ├── LaunchMissile.java
+        │   │       ├── MissileController.java
+        │   │       ├── MissileOperation.java
+        │   │       ├── MissileSystem.java
+        │   │       ├── RocketMissileSystem.java
+        │   │       └── TestMissileSystem.java
+        │   ├── Y23NovVerB
+        │   │   ├── Order.java
+        │   │   ├── OrderProcessingApp.java
+        │   │   └── Product.java
+        │   └── Y23NovVerE
+        │       ├── Q01
+        │       │   ├── ConcreateCourse.java
+        │       │   ├── Course.java
+        │       │   ├── InstitutionManagementApp.java
+        │       │   ├── Person.java
+        │       │   ├── Student.java
+        │       │   └── Teacher.java
+        │       └── Q02
         ├── Threads
         │   ├── Sync
         │   │   ├── Demo.java
@@ -598,7 +679,7 @@ SUM:                           392           2035            672           6230
                     ├── AgeValidationDemo.java
                     └── AgeValidationException.java
 
-160 directories, 415 files
+181 directories, 475 files
 
 ```
 </details>
