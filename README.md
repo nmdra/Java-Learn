@@ -1,18 +1,18 @@
 # Java Learn
 
 Last Update
-Fri 19 Apr 2024 03:20:42 +0530
+Fri 17 May 2024 00:09:31 +0530
 
 ```Bash
 
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Java                           366           1870            647           5662
+Java                           447           2211            737           6907
 Markdown                         2             53              0            191
 Text                             3              1              0             16
 -------------------------------------------------------------------------------
-SUM:                           371           1924            647           5869
+SUM:                           452           2265            737           7114
 -------------------------------------------------------------------------------
 
 ```
@@ -48,6 +48,7 @@ SUM:                           371           1924            647           5869
         │   │   └── StaticVar.java
         │   └── Strings
         │       ├── Comparison.java
+        │       ├── Ex01.java
         │       ├── Methods.java
         │       ├── Operators.java
         │       ├── Output.java
@@ -67,6 +68,7 @@ SUM:                           371           1924            647           5869
         │   │   └── LinkedListEx.java
         │   ├── PriorityQueue
         │   │   └── PriorityQueueEx.java
+        │   ├── Queue
         │   ├── Stack
         │   │   └── StackEx.java
         │   └── Vector
@@ -240,7 +242,7 @@ SUM:                           371           1924            647           5869
         │   │   │   ├── LightOffCommand.java
         │   │   │   ├── LightOnCommand.java
         │   │   │   ├── LivingRoomLight.java
-        │   │   │   └── OnlineTest.java
+        │   │   │   └── Test.java
         │   │   └── Example4
         │   │       ├── CustomerService.java
         │   │       ├── FX
@@ -266,6 +268,22 @@ SUM:                           371           1924            647           5869
         │   │   │   ├── VeggieBurger.java
         │   │   │   └── VeggieBurgerRestaurant.java
         │   │   ├── Factory-Method-UML.jpeg
+        │   │   ├── Pizza
+        │   │   │   ├── Pizza
+        │   │   │   │   ├── ChicagoStylePizza
+        │   │   │   │   │   ├── ChicagoStyleCheesePizza.java
+        │   │   │   │   │   ├── ChicagoStyleClamPizza.java
+        │   │   │   │   │   └── ChicagoStyleVeggiePizza.java
+        │   │   │   │   ├── NYStylePizza
+        │   │   │   │   │   ├── NYStyleCheesePizza.java
+        │   │   │   │   │   ├── NYStyleClamPizza.java
+        │   │   │   │   │   └── NYStyleVeggiePizza.java
+        │   │   │   │   └── Pizza.java
+        │   │   │   ├── PizzaShop.java
+        │   │   │   └── PizzaStore
+        │   │   │       ├── ChicagoStylePizzaStore.java
+        │   │   │       ├── NYStylePizzaStore.java
+        │   │   │       └── PizzaStore.java
         │   │   └── SimpleFactory
         │   │       ├── EmailNotification.java
         │   │       ├── NotificationFactory.java
@@ -361,7 +379,7 @@ SUM:                           371           1924            647           5869
         │   │   │   ├── ShapeFactory.java
         │   │   │   ├── Shape.java
         │   │   │   ├── Square.java
-        │   │   │   └── OnlineTest.java
+        │   │   │   └── Test.java
         │   │   └── Singleton
         │   │       ├── SingletonDemo.java
         │   │       ├── Singleton.java
@@ -384,8 +402,94 @@ SUM:                           371           1924            647           5869
         │   │   └── Lab2Ex5
         │   │       ├── EvenOddNumber.java
         │   │       └── NumCheck.java
-        │   └── Lab3
-        │       └── Ex04.java
+        │   ├── Lab3
+        │   │   └── Ex04.java
+        │   └── Lab6
+        │       ├── Account.java
+        │       ├── BankDemo.java
+        │       └── InsufficientBalanceException.java
+        ├── OnlineTest
+        │   ├── OnlineTest01
+        │   │   ├── Questions
+        │   │   │   ├── Online-Test-1.jpg
+        │   │   │   ├── Online-Test-2.jpg
+        │   │   │   ├── Online-Test-3.jpg
+        │   │   │   ├── Online-Test-4.jpg
+        │   │   │   └── Online-Test-5.jpg
+        │   │   ├── Test01
+        │   │   │   ├── EmpApp.java
+        │   │   │   ├── Employee.java
+        │   │   │   └── PartTimeEmployee.java
+        │   │   ├── Test02
+        │   │   │   ├── TempApp.java
+        │   │   │   └── TemperatureConverter.java
+        │   │   ├── Test03
+        │   │   │   ├── MathApp.java
+        │   │   │   └── MathOperations.java
+        │   │   ├── Test04
+        │   │   │   ├── Car.java
+        │   │   │   ├── MotorCycle.java
+        │   │   │   ├── VehicleApp.java
+        │   │   │   └── Vehicle.java
+        │   │   ├── Test05
+        │   │   │   ├── Course.java
+        │   │   │   ├── StudentApp.java
+        │   │   │   └── Student.java
+        │   │   └── Test06
+        │   │       ├── BookApp.java
+        │   │       └── Book.java
+        │   └── OnlineTest2
+        │       ├── GenericMethodProcessor
+        │       │   ├── GenericMethod.java
+        │       │   └── GenericTest.java
+        │       ├── Questions
+        │       ├── VersionA
+        │       │   ├── Example1
+        │       │   │   ├── Lottery.java
+        │       │   │   └── lotteryTest.java
+        │       │   ├── Example2
+        │       │   │   ├── Lottery2.java
+        │       │   │   └── Lottery2Test.java
+        │       │   └── Example3
+        │       │       ├── Lottery3.java
+        │       │       └── Lottery3Test.java
+        │       ├── VersionB
+        │       │   ├── Example1
+        │       │   │   ├── Alien.java
+        │       │   │   ├── AlienPack.java
+        │       │   │   ├── alienTest.java
+        │       │   │   ├── MarshmalloAlien.java
+        │       │   │   ├── MenInBlack2.java
+        │       │   │   ├── MenInBlack.java
+        │       │   │   ├── OrgeAlien.java
+        │       │   │   └── SnakeAlien.java
+        │       │   └── Example2
+        │       │       ├── Alien.java
+        │       │       ├── AlienPack.java
+        │       │       ├── MarshmalloAlien.java
+        │       │       ├── OgreAlien.java
+        │       │       └── SnakeAlien.java
+        │       ├── VersionC
+        │       │   ├── Example1
+        │       │   │   ├── RandNum.java
+        │       │   │   └── RandNumTest.java
+        │       │   └── Example2
+        │       │       └── RandNum2.java
+        │       ├── VersionD
+        │       │   ├── arrayTest.java
+        │       │   └── CharArray.java
+        │       ├── VersionE
+        │       │   ├── InvalidITNumberException.java
+        │       │   ├── student.java
+        │       │   └── studentTest.java
+        │       ├── VersionF
+        │       │   ├── AlarmClock.java
+        │       │   ├── mainClock.java
+        │       │   └── timeException.java
+        │       └── VersionG
+        │           ├── demo.java
+        │           ├── Employee.java
+        │           └── Manager.java
         ├── OOP
         │   ├── AbstractClasses
         │   │   ├── Developer.java
@@ -402,6 +506,7 @@ SUM:                           371           1924            647           5869
         │   │   │   ├── BoundTypeTest.java
         │   │   │   ├── GenericClass.java
         │   │   │   ├── GenericClassTest.java
+        │   │   │   ├── GenericMethodExample.java
         │   │   │   ├── GenericMethod.java
         │   │   │   └── WildCards
         │   │   │       ├── LowerBoundedWildcardExample.java
@@ -467,55 +572,67 @@ SUM:                           371           1924            647           5869
         │   │       └── Square.java
         │   └── Wrapper
         │       └── WrapperClass.java
-        ├── OnlineTest
-        │   ├── Questions
-        │   ├── VersionA
-        │   │   ├── Example1
-        │   │   │   ├── Lottery.java
-        │   │   │   └── lotteryTest.java
-        │   │   ├── Example2
-        │   │   │   ├── Lottery2.java
-        │   │   │   └── Lottery2Test.java
-        │   │   └── Example3
-        │   │       ├── Lottery3.java
-        │   │       └── Lottery3Test.java
-        │   ├── VersionB
-        │   │   ├── Example1
-        │   │   │   ├── Alien.java
-        │   │   │   ├── AlienPack.java
-        │   │   │   ├── alienTest.java
-        │   │   │   ├── MarshmalloAlien.java
-        │   │   │   ├── MenInBlack2.java
-        │   │   │   ├── MenInBlack.java
-        │   │   │   ├── OrgeAlien.java
-        │   │   │   └── SnakeAlien.java
-        │   │   └── Example2
-        │   │       ├── Alien.java
-        │   │       ├── AlienPack.java
-        │   │       ├── MarshmalloAlien.java
-        │   │       ├── OgreAlien.java
-        │   │       └── SnakeAlien.java
-        │   ├── VersionC
-        │   │   ├── Example1
-        │   │   │   ├── RandNum.java
-        │   │   │   └── RandNumTest.java
-        │   │   └── Example2
-        │   │       └── RandNum2.java
-        │   ├── VersionD
-        │   │   ├── arrayTest.java
-        │   │   └── CharArray.java
-        │   ├── VersionE
-        │   │   ├── InvalidITNumberException.java
-        │   │   ├── student.java
-        │   │   └── studentTest.java
-        │   ├── VersionF
-        │   │   ├── AlarmClock.java
-        │   │   ├── mainClock.java
-        │   │   └── timeException.java
-        │   └── VersionG
-        │       ├── demo.java
-        │       ├── Employee.java
-        │       └── Manager.java
+        ├── PastPapers
+        │   ├── Y19OctVerB
+        │   │   └── Q04
+        │   │       ├── BScPrograms.java
+        │   │       ├── CodeFest.java
+        │   │       ├── GameFest.java
+        │   │       ├── IFestival.java
+        │   │       ├── IPrograms.java
+        │   │       ├── MScPrograms.java
+        │   │       ├── PHDPrograms.java
+        │   │       ├── PostGraduateStudents.java
+        │   │       ├── RoboFest.java
+        │   │       ├── Students.java
+        │   │       ├── TestStrategy.java
+        │   │       └── UndergraduteStudents.java
+        │   ├── Y22NovVerA
+        │   │   └── Q04
+        │   │       ├── Breakfast.java
+        │   │       ├── ChickenFlavour.java
+        │   │       ├── Dinner.java
+        │   │       ├── EggFlavour.java
+        │   │       ├── FishFlavour.java
+        │   │       ├── FortyFiveMinutes.java
+        │   │       ├── IPrepareDeliciously.java
+        │   │       ├── IPrepareQuickly.java
+        │   │       ├── Lunch.java
+        │   │       ├── Meal.java
+        │   │       ├── OneHour.java
+        │   │       ├── TestStrategy.java
+        │   │       └── ThirtyMinutes.java
+        │   ├── Y22NovVerB
+        │   │   ├── Q01
+        │   │   │   ├── Customer.java
+        │   │   │   ├── MainApp.java
+        │   │   │   └── RegisteredCus.java
+        │   │   └── Q02
+        │   │       ├── Company.java
+        │   │       └── Employee.java
+        │   ├── Y23JuneVerB
+        │   │   └── Q04
+        │   │       ├── BlastMissile.java
+        │   │       ├── HeatMissileSystem.java
+        │   │       ├── LaunchMissile.java
+        │   │       ├── MissileController.java
+        │   │       ├── MissileOperation.java
+        │   │       ├── MissileSystem.java
+        │   │       ├── RocketMissileSystem.java
+        │   │       └── TestMissileSystem.java
+        │   ├── Y23NovVerB
+        │   │   ├── Order.java
+        │   │   ├── OrderProcessingApp.java
+        │   │   └── Product.java
+        │   └── Y23NovVerE
+        │       ├── Q01
+        │       │   ├── ConcreateCourse.java
+        │       │   ├── Course.java
+        │       │   ├── InstitutionManagementApp.java
+        │       │   ├── Person.java
+        │       │   ├── Student.java
+        │       │   └── Teacher.java
+        │       └── Q02
         ├── Threads
         │   ├── Sync
         │   │   ├── Demo.java
@@ -562,7 +679,7 @@ SUM:                           371           1924            647           5869
                     ├── AgeValidationDemo.java
                     └── AgeValidationException.java
 
-150 directories, 389 files
+181 directories, 475 files
 
 ```
 </details>

@@ -3,6 +3,8 @@ package Collections.HashSet;
 import java.util.HashSet;
 import java.util.Iterator;
 
+// A HashSet is a collection of items where every item is unique.
+
 public class HashSetEx {
     public static void main(String[] args) {
         HashSet<String> hashSet = new HashSet<>();

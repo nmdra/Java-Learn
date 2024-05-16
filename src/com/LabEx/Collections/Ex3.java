@@ -11,7 +11,7 @@ public class Ex3 {
 
         System.out.println("Enter the heights of 10 students:");
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 3; i++) {
             System.out.print("Height of student " + (i + 1) + ": ");
             height.add(scanner.nextDouble());
         }

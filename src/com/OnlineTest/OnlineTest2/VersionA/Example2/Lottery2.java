@@ -14,7 +14,7 @@ public class Lottery2 {
 
     public Lottery2() {
         for (int i = 0; i < 5; i++) {
-            lotteryNumbers[i] = rd.nextInt(9);
+            lotteryNumbers[i] = rd.nextInt(1,9);
         }
     }
 
@@ -43,7 +43,8 @@ public class Lottery2 {
         System.out.println("User's Numbers: " + Arrays.toString(userLotteryNumbers)); // Use For Loop
         System.out.println("Lottery Numbers: " + Arrays.toString(lotteryNumbers)); // Use For Loop
         System.out.println("Number of Matching Digits: " + matchedNumbers.size());
-        System.out.println("Matching Digits: " + matchedNumbers.toString()); // User For Loop
+        String matched = (matchedNumbers.isEmpty()) ? "None" : matchedNumbers.toString();
+        System.out.println("Matching Digits: " + matched); // User For Loop
     }
 
 }

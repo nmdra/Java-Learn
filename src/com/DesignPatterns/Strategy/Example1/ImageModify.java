@@ -14,7 +14,7 @@ public class ImageModify {
     public ImageModify(){
         this.compressor = new JpegCompressor();
         this.filter = new AnimeFilter();
-    };
+    }
 
     public ImageModify(Compressor compressor, Filter filter) {
         this.compressor = compressor;

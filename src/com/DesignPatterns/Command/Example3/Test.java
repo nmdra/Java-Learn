@@ -3,7 +3,6 @@ package DesignPatterns.Command.Example3;
 public class Test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		Light livingRoomLight = new LivingRoomLight();
 		Light kitchenLight = new KitchenLight();
@@ -17,7 +16,6 @@ public class Test {
 		lightoncommand1.execute();
 		Command lightoffcommand2 = new LightOffCommand(kitchenLight);
 		lightoffcommand2.execute();
-		
 	}
 
 }

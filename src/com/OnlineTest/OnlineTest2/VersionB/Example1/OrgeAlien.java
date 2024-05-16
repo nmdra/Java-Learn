@@ -7,5 +7,4 @@ public class OrgeAlien implements Alien
     {
         return score;
     }
-
 }

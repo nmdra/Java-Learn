@@ -3,6 +3,8 @@ package Collections.HashMap;
 import java.util.HashMap;
 import java.util.Map;
 
+// A HashMap however, store items in "key/value" pairs, and you can access them by an index of another type.
+
 public class HashMapEx {
     public static void main(String[] args) {
         Map<String, Integer> hashMap = new HashMap<>();

@@ -14,14 +14,19 @@ import java.util.ArrayList;
             al.add(ac1);
             al.add(ac2);
 
-            for( AlarmClock a : al) {
-                System.out.println(a);
-            }
-
             ac1.inputAlarm();
-            ac1.showAlarm();
-            ac2.SetAlarm();
+            ac2.SetAlarm(1,22,44);
 
+//            for(AlarmClock clock : al){
+//                clock.showAlarm();
+//                System.out.println();
+//            }
+
+            // Using Lambda Expression
+//            al.forEach(Clock -> Clock.showAlarm());
+
+            // Using Method Reference
+            al.forEach(AlarmClock::showAlarm);
 
         }
 }
