@@ -5,9 +5,9 @@ public class TestDuck {
 
 		System.out.println("Start Mallard Duck");
 		System.out.println("==================");
-		Duck mollard = new MollardDuck();
-		mollard.performFly();
-		mollard.performQuack();
+		Duck mallard = new MollardDuck();
+		mallard.performFly();
+		mallard.performQuack();
 		
 		System.out.println("Start Model Duck");
 		System.out.println("==================");

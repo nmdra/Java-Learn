@@ -1,9 +1,9 @@
 package DesignPatterns.Factory.Pizza.PizzaStore;
 
-import Pizza.NYStylePizza.NYStyleCheesePizza;
-import Pizza.NYStylePizza.NYStyleClamPizza;
-import Pizza.NYStylePizza.NYStyleVeggiePizza;
-import Pizza.Pizza;
+import DesignPatterns.Factory.Pizza.Pizza.NYStylePizza.NYStyleCheesePizza;
+import DesignPatterns.Factory.Pizza.Pizza.NYStylePizza.NYStyleClamPizza;
+import DesignPatterns.Factory.Pizza.Pizza.NYStylePizza.NYStyleVeggiePizza;
+import DesignPatterns.Factory.Pizza.Pizza.Pizza;
 
 /**
  * @author Nitin

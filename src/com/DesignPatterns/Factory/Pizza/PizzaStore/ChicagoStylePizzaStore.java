@@ -1,13 +1,10 @@
 package DesignPatterns.Factory.Pizza.PizzaStore;
 
-import Pizza.ChicagoStylePizza.ChicagoStyleCheesePizza;
-import Pizza.ChicagoStylePizza.ChicagoStyleClamPizza;
-import Pizza.ChicagoStylePizza.ChicagoStyleVeggiePizza;
-import Pizza.Pizza;
+import DesignPatterns.Factory.Pizza.Pizza.ChicagoStylePizza.ChicagoStyleCheesePizza;
+import DesignPatterns.Factory.Pizza.Pizza.ChicagoStylePizza.ChicagoStyleClamPizza;
+import DesignPatterns.Factory.Pizza.Pizza.ChicagoStylePizza.ChicagoStyleVeggiePizza;
+import DesignPatterns.Factory.Pizza.Pizza.Pizza;
 
-/**
- * @author Nitin
- */
 public class ChicagoStylePizzaStore extends PizzaStore{
 
     @Override

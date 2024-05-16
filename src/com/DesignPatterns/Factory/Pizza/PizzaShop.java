@@ -1,8 +1,8 @@
-package DesignPatterns.Factory.Pizza.pizzashop;
+package DesignPatterns.Factory.Pizza;
 
-import Pizza.Pizza;
-import PizzaStore.NYStylePizzaStore;
-import PizzaStore.PizzaStore;
+import DesignPatterns.Factory.Pizza.Pizza.Pizza;
+import DesignPatterns.Factory.Pizza.PizzaStore.NYStylePizzaStore;
+import DesignPatterns.Factory.Pizza.PizzaStore.PizzaStore;
 
 /**
  * @author nitin

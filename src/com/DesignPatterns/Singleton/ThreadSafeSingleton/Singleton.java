@@ -25,25 +25,25 @@ public final class Singleton {
         // You can read more info DCL issues in Java here:
         // https://refactoring.guru/java-dcl-issue
 
-        Singleton result = instance;
-        if (result != null) {
-            return instance;
-        }
-        synchronized(Singleton.class) {
-            if (instance == null) {
-                instance = new Singleton(value);
-            }
-        return instance;
-//            if (result == null) {
-//                synchronized (Singleton.class) {
-//                    result = instance;
-//                    if (result == null) {
-//                        instance = result = new Singleton(value);
-//                    }
-//                }
+//        if (result != null) {
+//            return instance;
+//        }
+//        synchronized(Singleton.class) {
+//            if (instance == null) {
+//                instance = new Singleton(value);
 //            }
-//
-//            return result;
+//        return instance;
+
+        Singleton result = instance;
+        if (result == null) {
+            synchronized (Singleton.class) {
+                result = instance;
+                if (result == null) {
+                    instance = result = new Singleton(value);
+                }
+            }
         }
+
+        return result;
     }
 }

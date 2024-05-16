@@ -1,6 +1,6 @@
 package DesignPatterns.Factory.Pizza.Pizza.ChicagoStylePizza;
 
-import Pizza.Pizza;
+import DesignPatterns.Factory.Pizza.Pizza.Pizza;
 
 /**
  * @author Nitin

@@ -1,7 +1,5 @@
 package DesignPatterns.Factory.SimpleFactory;
 
-import DesignPatterns.Factory.SimpleFactory.Notification;
-
 public class PushNotification implements Notification {
 
     @Override

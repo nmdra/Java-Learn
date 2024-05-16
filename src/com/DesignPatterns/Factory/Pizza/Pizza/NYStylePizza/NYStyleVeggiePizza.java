@@ -1,9 +1,11 @@
 package DesignPatterns.Factory.Pizza.Pizza.NYStylePizza;
 
+import DesignPatterns.Factory.Pizza.Pizza.Pizza;
+
 /**
  * @author nitin
  */
-public class NYStyleVeggiePizza extends Pizza.Pizza {
+public class NYStyleVeggiePizza extends Pizza {
 
     public NYStyleVeggiePizza() {
         name = "NY style Veggie Pizza";

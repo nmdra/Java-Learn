@@ -10,7 +10,7 @@ package DesignPatterns.Singleton.Basic;
  * cached object.
  */
 
-public final class Singleton {
+public class Singleton {
     private static Singleton instance;
     public String value;
 
