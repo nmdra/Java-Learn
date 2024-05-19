@@ -1,18 +1,18 @@
 # Java Learn
 
 Last Update
-Sun 19 May 2024 12:14:17 +0530
+Sun 19 May 2024 22:37:57 +0530
 
 ```Bash
 
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Java                           468           2297            738           7234
+Java                           477           2335            738           7436
 Markdown                         2             53              0            191
 Text                             3              1              0             16
 -------------------------------------------------------------------------------
-SUM:                           473           2351            738           7441
+SUM:                           482           2389            738           7643
 -------------------------------------------------------------------------------
 
 ```
@@ -635,6 +635,14 @@ SUM:                           473           2351            738           7441
         │   │   ├── Order.java
         │   │   ├── OrderProcessingApp.java
         │   │   └── Product.java
+        │   ├── Y23NovVerD
+        │   │   └── Q02
+        │   │       ├── FactorySimulation.java
+        │   │       ├── FactoryTest.java
+        │   │       ├── ProductLine.java
+        │   │       ├── SupplierCement.java
+        │   │       ├── SupplierIron.java
+        │   │       └── SupplierWood.java
         │   ├── Y23NovVerE
         │   │   ├── Q01
         │   │   │   ├── ConcreateCourse.java
@@ -645,6 +653,9 @@ SUM:                           473           2351            738           7441
         │   │   │   └── Teacher.java
         │   │   ├── Q02
         │   │   └── Q03
+        │   │       ├── ResourceManager.java
+        │   │       ├── ResourceTest.java
+        │   │       └── UserThread.java
         │   └── Y23NovVerF
         │       └── Q02
         │           ├── Benz.java
@@ -706,7 +717,7 @@ SUM:                           473           2351            738           7441
                     ├── AgeValidationDemo.java
                     └── AgeValidationException.java
 
-187 directories, 496 files
+189 directories, 505 files
 
 ```
 </details>
