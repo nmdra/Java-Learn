@@ -1,3 +1,5 @@
+// Abstract Factory
+
 package DesignPatterns.AbstractFactory.Example1.factories;
 
 import DesignPatterns.AbstractFactory.Example1.products.Gpu;
