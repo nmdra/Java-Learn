@@ -2,7 +2,7 @@ package DesignPatterns.Template.Example2;
 
 public abstract class BaseGameLoader {
 
-    public void load() {
+    public final void load() {
         byte[] data = loadLocalData();
         createObjects(data);
         downloadAdditionalFiles();

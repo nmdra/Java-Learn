@@ -1,6 +1,6 @@
 package DesignPatterns.AbstractFactory.Example2;
 
-public class Blue implements Color{
+public class Blue implements Color {
 
 	@Override
 	public void fill() {

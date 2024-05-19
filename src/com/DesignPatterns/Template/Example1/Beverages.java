@@ -14,7 +14,7 @@ public abstract class Beverages {
 		System.out.println("Pour into cup");
 	}
 
-	public void PrepareRecipe() {
+	public final void PrepareRecipe() {
 
 		boilWater();
 		brew();
