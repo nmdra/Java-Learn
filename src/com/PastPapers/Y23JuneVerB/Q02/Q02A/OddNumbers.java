@@ -1,4 +1,4 @@
-package PastPapers.Y23NovVerE.Q02A;
+package PastPapers.Y23JuneVerB.Q02.Q02A;
 
 import java.util.ArrayList;
 import java.util.Scanner;

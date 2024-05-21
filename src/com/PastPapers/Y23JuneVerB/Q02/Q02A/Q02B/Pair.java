@@ -1,4 +1,4 @@
-package PastPapers.Y23NovVerE.Q02B;
+package PastPapers.Y23JuneVerB.Q02.Q02A.Q02B;
 
 public class Pair<T,U> {
     T first;
