@@ -1,18 +1,18 @@
 # Java Learn
 
 Last Update
-Sun 19 May 2024 22:37:57 +0530
+Tue 21 May 2024 19:44:33 +0530
 
 ```Bash
 
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Java                           477           2335            738           7436
+Java                           483           2388            739           7588
 Markdown                         2             53              0            191
 Text                             3              1              0             16
 -------------------------------------------------------------------------------
-SUM:                           482           2389            738           7643
+SUM:                           488           2442            739           7795
 -------------------------------------------------------------------------------
 
 ```
@@ -620,6 +620,11 @@ SUM:                           482           2389            738           7643
         │   │       ├── Company.java
         │   │       └── Employee.java
         │   ├── Y23JuneVerB
+        │   │   ├── Q01
+        │   │   │   ├── Course.java
+        │   │   │   ├── StudentApp.java
+        │   │   │   └── Student.java
+        │   │   ├── Q02
         │   │   ├── Q03
         │   │   │   └── EvenOddPrinter.java
         │   │   └── Q04
@@ -651,7 +656,11 @@ SUM:                           482           2389            738           7643
         │   │   │   ├── Person.java
         │   │   │   ├── Student.java
         │   │   │   └── Teacher.java
-        │   │   ├── Q02
+        │   │   ├── Q02A
+        │   │   │   └── OddNumbers.java
+        │   │   ├── Q02B
+        │   │   │   ├── MainApp.java
+        │   │   │   └── Pair.java
         │   │   └── Q03
         │   │       ├── ResourceManager.java
         │   │       ├── ResourceTest.java
@@ -717,7 +726,7 @@ SUM:                           482           2389            738           7643
                     ├── AgeValidationDemo.java
                     └── AgeValidationException.java
 
-189 directories, 505 files
+192 directories, 511 files
 
 ```
 </details>
