@@ -8,9 +8,8 @@ public class Inventory {
     HashMap<String,Product> products = new HashMap<>();
 
     public void addProduct(String productCode,String productName,int quantity,double price){
-        Product pr = new Product(productName,quantity,price);
 
-        products.put(productCode,pr);
+        products.put(productCode,new Product(productName,quantity,price));
 
     }
 
@@ -20,7 +19,7 @@ public class Inventory {
 
     public void displayProducts(){
 
-        Set<Map.Entry<String , Product>> set = products.entrySet();
+        Set<Map.Entry<String,Product>> set = products.entrySet();
 
         for(Map.Entry<String,Product> me: set) {
             System.out.println("Product Code: "+me.getKey());

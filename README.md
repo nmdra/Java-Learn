@@ -1,18 +1,18 @@
 # Java Learn
 
 Last Update
-Tue 21 May 2024 19:44:33 +0530
+Thu 23 May 2024 09:29:47 +0530
 
 ```Bash
 
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Java                           483           2388            739           7588
+Java                           501           2466            742           7888
 Markdown                         2             53              0            191
 Text                             3              1              0             16
 -------------------------------------------------------------------------------
-SUM:                           488           2442            739           7795
+SUM:                           506           2520            742           8095
 -------------------------------------------------------------------------------
 
 ```
@@ -291,6 +291,7 @@ SUM:                           488           2442            739           7795
         │   │       ├── NotificationService.java
         │   │       ├── PushNotification.java
         │   │       └── SMSNotification.java
+        │   ├── FlyWeight
         │   ├── Singleton
         │   │   ├── Basic
         │   │   │   ├── SingletonDemo.java
@@ -625,6 +626,11 @@ SUM:                           488           2442            739           7795
         │   │   │   ├── StudentApp.java
         │   │   │   └── Student.java
         │   │   ├── Q02
+        │   │   │   └── Q02A
+        │   │   │       ├── OddNumbers.java
+        │   │   │       └── Q02B
+        │   │   │           ├── MainApp.java
+        │   │   │           └── Pair.java
         │   │   ├── Q03
         │   │   │   └── EvenOddPrinter.java
         │   │   └── Q04
@@ -641,13 +647,30 @@ SUM:                           488           2442            739           7795
         │   │   ├── OrderProcessingApp.java
         │   │   └── Product.java
         │   ├── Y23NovVerD
-        │   │   └── Q02
-        │   │       ├── FactorySimulation.java
-        │   │       ├── FactoryTest.java
-        │   │       ├── ProductLine.java
-        │   │       ├── SupplierCement.java
-        │   │       ├── SupplierIron.java
-        │   │       └── SupplierWood.java
+        │   │   ├── Q01A
+        │   │   │   ├── GenericPersonDemo.java
+        │   │   │   ├── GenericPerson.java
+        │   │   │   ├── IPerson.java
+        │   │   │   ├── Lecturer.java
+        │   │   │   └── Student.java
+        │   │   ├── Q01B
+        │   │   │   ├── AscendingTable.java
+        │   │   │   └── GenericDemo.java
+        │   │   ├── Q02
+        │   │   │   ├── FactorySimulation.java
+        │   │   │   ├── FactoryTest.java
+        │   │   │   ├── ProductLine.java
+        │   │   │   ├── SupplierCement.java
+        │   │   │   ├── SupplierIron.java
+        │   │   │   └── SupplierWood.java
+        │   │   └── Q04
+        │   │       ├── DroneSatellite.java
+        │   │       ├── IGeoLocation.java
+        │   │       ├── ISatellite.java
+        │   │       ├── NavigationSatellite.java
+        │   │       ├── SatelliteCenter.java
+        │   │       ├── SatelliteDemo.java
+        │   │       └── SatelliteLocation.java
         │   ├── Y23NovVerE
         │   │   ├── Q01
         │   │   │   ├── ConcreateCourse.java
@@ -656,16 +679,17 @@ SUM:                           488           2442            739           7795
         │   │   │   ├── Person.java
         │   │   │   ├── Student.java
         │   │   │   └── Teacher.java
-        │   │   ├── Q02A
-        │   │   │   └── OddNumbers.java
-        │   │   ├── Q02B
-        │   │   │   ├── MainApp.java
-        │   │   │   └── Pair.java
         │   │   └── Q03
         │   │       ├── ResourceManager.java
         │   │       ├── ResourceTest.java
         │   │       └── UserThread.java
         │   └── Y23NovVerF
+        │       ├── Q01A
+        │       │   └── BookLibrary.java
+        │       ├── Q01B
+        │       │   ├── InventoryApp.java
+        │       │   ├── Inventory.java
+        │       │   └── Product.java
         │       └── Q02
         │           ├── Benz.java
         │           ├── BMW.java
@@ -726,7 +750,7 @@ SUM:                           488           2442            739           7795
                     ├── AgeValidationDemo.java
                     └── AgeValidationException.java
 
-192 directories, 511 files
+198 directories, 529 files
 
 ```
 </details>
