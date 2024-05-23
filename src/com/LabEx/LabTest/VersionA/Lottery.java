@@ -1,4 +1,4 @@
-package Extra.LabTest.VersionA;
+package LabEx.LabTest.VersionA;
 
 import java.util.Arrays;
 import java.util.Random;

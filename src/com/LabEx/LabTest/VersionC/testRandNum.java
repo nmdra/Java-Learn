@@ -1,4 +1,4 @@
-package Extra.LabTest.VersionC;
+package LabEx.LabTest.VersionC;
 
 public class testRandNum {
     public static void main(String[] args) {
