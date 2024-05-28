@@ -22,7 +22,7 @@ public class UserThread extends Thread {
         }
 
         System.out.println("User " + userId + " acquires Resource " + res);
-        Thread.sleep(500); // Simulate resource usage
+        Thread.sleep(1000); // Simulate resource usage
 
         synchronized (resourceManager) {
             resourceManager.releaseResource(res);
