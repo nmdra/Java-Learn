@@ -1,18 +1,27 @@
 # Java Learn
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![GitHub last commit](https://img.shields.io/github/last-commit/nmdra/Java-Learn?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/nmdra/Java-Learn?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/nmdra/Java-Learn?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/nmdra/Java-Learn?style=for-the-badge)
+![License](https://img.shields.io/github/license/nmdra/Java-Learn?style=for-the-badge)
+
+A repository documenting my journey learning Java, featuring projects, code snippets, and notes on key concepts. Contributions and suggestions are welcome!
+
 Last Update
-Wed 29 May 2024 15:06:02 +0530
+Wed 29 May 2024 19:27:02 +0530
 
 ```Bash
 
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Java                           543           2676            773           8713
+Java                           556           2752            773           8989
 Markdown                         2             53              0            191
 Text                             3              1              0             16
 -------------------------------------------------------------------------------
-SUM:                           548           2730            773           8920
+SUM:                           561           2806            773           9196
 -------------------------------------------------------------------------------
 
 ```
@@ -602,6 +611,14 @@ SUM:                           548           2730            773           8920
         │   │       ├── TestStrategy.java
         │   │       └── UndergraduteStudents.java
         │   ├── Y22JuneVerA
+        │   │   ├── Q01
+        │   │   │   ├── Cat.java
+        │   │   │   ├── CaughtException.java
+        │   │   │   ├── Demo.java
+        │   │   │   ├── Parrot.java
+        │   │   │   ├── Pet.java
+        │   │   │   ├── PointAllocator.java
+        │   │   │   └── Squirrel.java
         │   │   ├── Q03
         │   │   │   ├── ConsumerThread.java
         │   │   │   ├── ProducerThread.java
@@ -615,6 +632,11 @@ SUM:                           548           2730            773           8920
         │   │       ├── SideAirBag.java
         │   │       └── ToyotaCar.java
         │   ├── Y22NovVerA
+        │   │   ├── Q01
+        │   │   │   ├── DemoApp.java
+        │   │   │   ├── Employee.java
+        │   │   │   ├── PermanentEmp.java
+        │   │   │   └── TemporaryEmp.java
         │   │   └── Q04
         │   │       ├── Breakfast.java
         │   │       ├── ChickenFlavour.java
@@ -676,6 +698,9 @@ SUM:                           548           2730            773           8920
         │   │   │   └── EmployeeNames.java
         │   │   ├── Q02B
         │   │   │   ├── GenericCalculator.java
+        │   │   │   └── MainApp.java
+        │   │   ├── Q02BAlt
+        │   │   │   ├── Genericcalculator.java
         │   │   │   └── MainApp.java
         │   │   ├── Q03
         │   │   │   ├── Bike.java
@@ -807,7 +832,7 @@ SUM:                           548           2730            773           8920
                     ├── AgeValidationDemo.java
                     └── AgeValidationException.java
 
-212 directories, 572 files
+215 directories, 585 files
 
 ```
 </details>
