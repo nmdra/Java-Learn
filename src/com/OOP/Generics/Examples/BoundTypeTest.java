@@ -19,7 +19,7 @@ public class BoundTypeTest {
 
     BoundType<Double> obj2 = new BoundType<>(3.0);
 
-//    BoundType<String> obj3 = new BoundType<>("Test") <-- Not Allowed
+//    BoundType<String> obj3 = new BoundType<>("IteratorExample") <-- Not Allowed
 
     }
 }

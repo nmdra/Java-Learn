@@ -1,8 +1,7 @@
-package PastPapers.Y23NovVerB;
+package PastPapers.Y23NovVerB.Q01Alt;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
-import java.util.Queue;
 
 public class Order {
 
@@ -10,7 +9,7 @@ public class Order {
 	private int orderID;
 	private String orderDate;
 	
-	Queue<Product> productQueue;
+	PriorityQueue<Product> productQueue;
 
 	/**
 	 * Initializes a PriorityQueue with a custom comparator based on the name property of Product objects.
