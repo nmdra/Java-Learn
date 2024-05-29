@@ -1,9 +1,9 @@
 package PastPapers.Y22NovVerB.Q03;
 
 public class Pattern02 implements Runnable {
-	Object lock;
-	String pattern;
-	int count;
+	private final Object lock;
+	private String pattern;
+	private int count;
 
 	public Pattern02(Object lock, String pattern, int count) {
 		super();
@@ -15,7 +15,6 @@ public class Pattern02 implements Runnable {
 	@Override
 	public void run() {
 		synchronized (lock) {
-
 			for(int i = 0; i < count; i++) {
 				System.out.print("Pattern 02 Thread =  ");
 				for(int j = 0; j < i; j++) {

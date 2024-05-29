@@ -6,7 +6,7 @@ public class Main {
 	public static void main(String[] args) {
 		Object lock = new Object();
 		String pattern1, pattern2;
-		int count = 10;
+		int count;
 
 		Scanner sc = new Scanner(System.in);
 
@@ -17,7 +17,7 @@ public class Main {
 		pattern2= sc.nextLine();
 				
 		System.out.print("Enter count = ");
-		sc.nextInt();
+		count = sc.nextInt();
 
 		System.out.println();
 

@@ -1,5 +1,6 @@
 package Collections.Iterator;
 
+// https://www.geeksforgeeks.org/iterators-in-java/
 // Java program to Demonstrate Iterator
 
 // Importing ArrayList and Iterator classes

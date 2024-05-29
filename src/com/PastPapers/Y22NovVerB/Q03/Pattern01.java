@@ -1,9 +1,9 @@
 package PastPapers.Y22NovVerB.Q03;
 
 public class Pattern01 implements Runnable {
-	Object lock;
-	String pattern;
-	int count;
+	private final Object lock;
+	private String pattern;
+	private int count;
 
 	public Pattern01(Object lock, String pattern, int count) {
 		super();
