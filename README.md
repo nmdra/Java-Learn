@@ -1,18 +1,18 @@
 # Java Learn
 
 Last Update
-Thu 23 May 2024 09:29:47 +0530
+Wed 29 May 2024 15:06:02 +0530
 
 ```Bash
 
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Java                           501           2466            742           7888
+Java                           543           2676            773           8713
 Markdown                         2             53              0            191
 Text                             3              1              0             16
 -------------------------------------------------------------------------------
-SUM:                           506           2520            742           8095
+SUM:                           548           2730            773           8920
 -------------------------------------------------------------------------------
 
 ```
@@ -23,6 +23,7 @@ SUM:                           506           2520            742           8095
 ```Bash
 
 .
+├── LICENSE
 ├── README.md
 └── src
     └── com
@@ -64,6 +65,8 @@ SUM:                           506           2520            742           8095
         │   │   └── HashMapEx.java
         │   ├── HashSet
         │   │   └── HashSetEx.java
+        │   ├── Iterator
+        │   │   └── IteratorExample.java
         │   ├── LinkedList
         │   │   └── LinkedListEx.java
         │   ├── PriorityQueue
@@ -238,11 +241,12 @@ SUM:                           506           2520            742           8095
         │   │   ├── Example3
         │   │   │   ├── Command.java
         │   │   │   ├── KitchenLight.java
+        │   │   │   ├── LightController.java
         │   │   │   ├── Light.java
         │   │   │   ├── LightOffCommand.java
         │   │   │   ├── LightOnCommand.java
-        │   │   │   ├── LivingRoomLight.java
-        │   │   │   └── Test.java
+        │   │   │   ├── LightTest.java
+        │   │   │   └── LivingRoomLight.java
         │   │   └── Example4
         │   │       ├── CustomerService.java
         │   │       ├── FX
@@ -351,18 +355,6 @@ SUM:                           506           2520            742           8095
         ├── Extra
         │   ├── ArrayManipulation.java
         │   ├── fibo.java
-        │   ├── LabTest
-        │   │   ├── VersionA
-        │   │   │   ├── Lottery.java
-        │   │   │   ├── LotteryTest.java
-        │   │   │   └── VA.pdf
-        │   │   ├── VersionAExt
-        │   │   │   ├── Lotto.java
-        │   │   │   └── LottoTest.java
-        │   │   └── VersionC
-        │   │       ├── RandNum.java
-        │   │       ├── testRandNum.java
-        │   │       └── VC.pdf
         │   └── Palin.java
         ├── GUI
         │   └── Main.java
@@ -405,10 +397,22 @@ SUM:                           506           2520            742           8095
         │   │       └── NumCheck.java
         │   ├── Lab3
         │   │   └── Ex04.java
-        │   └── Lab6
-        │       ├── Account.java
-        │       ├── BankDemo.java
-        │       └── InsufficientBalanceException.java
+        │   ├── Lab6
+        │   │   ├── Account.java
+        │   │   ├── BankDemo.java
+        │   │   └── InsufficientBalanceException.java
+        │   └── LabTest
+        │       ├── VersionA
+        │       │   ├── Lottery.java
+        │       │   ├── LotteryTest.java
+        │       │   └── VA.pdf
+        │       ├── VersionAExt
+        │       │   ├── Lotto.java
+        │       │   └── LottoTest.java
+        │       └── VersionC
+        │           ├── RandNum.java
+        │           ├── testRandNum.java
+        │           └── VC.pdf
         ├── OnlineTest
         │   ├── OnlineTest01
         │   │   ├── Questions
@@ -574,7 +578,16 @@ SUM:                           506           2520            742           8095
         │   └── Wrapper
         │       └── WrapperClass.java
         ├── PastPapers
+        │   ├── Y19OctVerA
+        │   │   └── Q03
+        │   │       ├── MultiplyThread.java
+        │   │       ├── PlusThread.java
+        │   │       └── TestThread.java
         │   ├── Y19OctVerB
+        │   │   ├── Q02
+        │   │   │   ├── AddNumbers.java
+        │   │   │   ├── DemoThreads.java
+        │   │   │   └── MultiplyNumbers.java
         │   │   └── Q04
         │   │       ├── BScPrograms.java
         │   │       ├── CodeFest.java
@@ -589,6 +602,10 @@ SUM:                           506           2520            742           8095
         │   │       ├── TestStrategy.java
         │   │       └── UndergraduteStudents.java
         │   ├── Y22JuneVerA
+        │   │   ├── Q03
+        │   │   │   ├── ConsumerThread.java
+        │   │   │   ├── ProducerThread.java
+        │   │   │   └── ThreadTest.java
         │   │   └── Q04
         │   │       ├── CarAirBag.java
         │   │       ├── Car.java
@@ -617,9 +634,13 @@ SUM:                           506           2520            742           8095
         │   │   │   ├── Customer.java
         │   │   │   ├── MainApp.java
         │   │   │   └── RegisteredCus.java
-        │   │   └── Q02
-        │   │       ├── Company.java
-        │   │       └── Employee.java
+        │   │   ├── Q02
+        │   │   │   ├── Company.java
+        │   │   │   └── Employee.java
+        │   │   └── Q03
+        │   │       ├── Main.java
+        │   │       ├── Pattern01.java
+        │   │       └── Pattern02.java
         │   ├── Y23JuneVerB
         │   │   ├── Q01
         │   │   │   ├── Course.java
@@ -643,9 +664,36 @@ SUM:                           506           2520            742           8095
         │   │       ├── RocketMissileSystem.java
         │   │       └── TestMissileSystem.java
         │   ├── Y23NovVerB
-        │   │   ├── Order.java
-        │   │   ├── OrderProcessingApp.java
-        │   │   └── Product.java
+        │   │   ├── Q01
+        │   │   │   ├── Order.java
+        │   │   │   ├── OrderProcessingApp.java
+        │   │   │   └── Product.java
+        │   │   ├── Q01Alt
+        │   │   │   ├── Order.java
+        │   │   │   ├── OrderProcessingApp.java
+        │   │   │   └── Product.java
+        │   │   ├── Q02A
+        │   │   │   └── EmployeeNames.java
+        │   │   ├── Q02B
+        │   │   │   ├── GenericCalculator.java
+        │   │   │   └── MainApp.java
+        │   │   ├── Q03
+        │   │   │   ├── Bike.java
+        │   │   │   ├── Car.java
+        │   │   │   └── RaceRunner.java
+        │   │   └── Q04
+        │   │       ├── ChineseRobot.java
+        │   │       ├── CircleShapes.java
+        │   │       ├── DashLines.java
+        │   │       ├── DesignSelector.java
+        │   │       ├── DottedLines.java
+        │   │       ├── IDrawableLines.java
+        │   │       ├── IDrawableShapes.java
+        │   │       ├── JapaneseRobot.java
+        │   │       ├── SquareShapes.java
+        │   │       ├── StraightLines.java
+        │   │       ├── TextileIndustryDemo.java
+        │   │       └── TriangleShapes.java
         │   ├── Y23NovVerD
         │   │   ├── Q01A
         │   │   │   ├── GenericPersonDemo.java
@@ -679,9 +727,18 @@ SUM:                           506           2520            742           8095
         │   │   │   ├── Person.java
         │   │   │   ├── Student.java
         │   │   │   └── Teacher.java
-        │   │   └── Q03
+        │   │   ├── Q03
+        │   │   │   ├── ResourceManager.java
+        │   │   │   ├── ResourceTest.java
+        │   │   │   └── UserThread.java
+        │   │   ├── Q03Alt
+        │   │   │   ├── Main.java
+        │   │   │   ├── ResourceManager.java
+        │   │   │   └── User.java
+        │   │   └── Q03Alt2
+        │   │       ├── Main.java
+        │   │       ├── Resource.java
         │   │       ├── ResourceManager.java
-        │   │       ├── ResourceTest.java
         │   │       └── UserThread.java
         │   └── Y23NovVerF
         │       ├── Q01A
@@ -750,7 +807,7 @@ SUM:                           506           2520            742           8095
                     ├── AgeValidationDemo.java
                     └── AgeValidationException.java
 
-198 directories, 529 files
+212 directories, 572 files
 
 ```
 </details>
