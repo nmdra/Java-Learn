@@ -5,7 +5,7 @@ public class MainApp {
 
         GenericCalculator genCalculator = new GenericCalculator();
         Integer[] intArray = {1, 2, 3, 4, 5};
-        Double[] doubleArray = {1.0, 2.0, 3.0, 4.0, 5.0}; // For Testing
+        Double[] doubleArray = {1.0, 2.0, 3.0, 4.0, 5.0};
 
         System.out.println("Maximum Integer: " + genCalculator.calculateMaximum(intArray));
         System.out.println("Product of Integer Array: " + genCalculator.calculateProduct(intArray));
