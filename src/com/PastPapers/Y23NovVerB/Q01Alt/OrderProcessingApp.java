@@ -1,4 +1,4 @@
-package PastPapers.Y23NovVerB;
+package PastPapers.Y23NovVerB.Q01Alt;
 
 public class OrderProcessingApp {
 	public static void main(String[] args) {
