@@ -1,27 +1,25 @@
 # Java Learn
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![GitHub last commit](https://img.shields.io/github/last-commit/nmdra/Java-Learn?style=for-the-badge)
 ![GitHub stars](https://img.shields.io/github/stars/nmdra/Java-Learn?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/nmdra/Java-Learn?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/nmdra/Java-Learn?style=for-the-badge)
 ![License](https://img.shields.io/github/license/nmdra/Java-Learn?style=for-the-badge)
 
 A repository documenting my journey learning Java, featuring projects, code snippets, and notes on key concepts. Contributions and suggestions are welcome!
 
 Last Update
-Tue 11 Jun 2024 00:05:47 +0530
+Sun 23 Jun 2024 16:46:31 +0530
 
 ```Bash
 
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Java                           556           2752            773           8989
+Java                           572           2972            860           9796
 Markdown                         2             53              0            191
 Text                             3              1              0             16
 -------------------------------------------------------------------------------
-SUM:                           561           2806            773           9196
+SUM:                           577           3026            860          10003
 -------------------------------------------------------------------------------
 
 ```
@@ -34,7 +32,7 @@ SUM:                           561           2806            773           9196
 .
 └── src
     └── com
-        ├── basic
+        ├── Basics
         │   ├── ExceptionHandling
         │   ├── fundamental
         │   ├── IO
@@ -51,6 +49,16 @@ SUM:                           561           2806            773           9196
         │   ├── Queue
         │   ├── Stack
         │   └── Vector
+        ├── DataStructures
+        │   ├── LinkedList
+        │   │   ├── DoublyLinkedList
+        │   │   ├── LinkedList1
+        │   │   └── LinkedList2
+        │   ├── Queue
+        │   ├── Stack
+        │   └── Tree
+        │       ├── Tree
+        │       └── TreeX
         ├── DesignPatterns
         │   ├── AbstractFactory
         │   │   ├── Example1
@@ -206,7 +214,7 @@ SUM:                           561           2806            773           9196
                 ├── Tute4ex2Ext
                 └── Tute4ex3
 
-174 directories
+184 directories
 
 ```
 </details>
