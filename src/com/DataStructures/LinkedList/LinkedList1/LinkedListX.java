@@ -12,7 +12,7 @@ public class LinkedListX {
     // method to display all the links in linkedList
     public void displayLinkedList() {
 
-        Link current = first;                // tempory Link object that store the first at first Loop because we have to access value by link by link
+        Link current = first;            // temporary Link object that store the first at first Loop because we have to access value by link by link
         // while loop
         while(current!=null) {
             current.displayLink();
@@ -31,11 +31,11 @@ public class LinkedListX {
             else    //  if idata value is not equals to key we have to give chance to next link
                 current = current.next;
         }
-        return false;   // if there is no value thats mean loop is going to null so that it return false
+        return false;   // if there is no value that's mean loop is going to null so that it return false
     }
 
     // method to insert first or change the first
-    public void inserFirst(int key) {
+    public void insertFirst(int key) {
 
         Link newLink = new Link(key);	 // we have o create a newobject to newLink
         // first of all we have to set the next of newLik which is stored in first
@@ -47,11 +47,11 @@ public class LinkedListX {
     public boolean insertAfter(int key,int newKey) {
         Link newLink =  new Link(newKey);  // everytime if we insert a value to link you must create an object in Link
 
-        Link current = first;     //  as above we have to repeat it again
+        Link current = first;     //  as above, we have to repeat it again
 
         while(current!=null) {
-            if(current.iData ==  key) {   // if the key is equal to the curent data
-                newLink.next = current.next;   // assing newLink from the current's nxt
+            if(current.iData ==  key) {   // if the key is equal to the current data
+                newLink.next = current.next;   // accessing newLink from the current's nxt
                 current.next =  newLink;   // now assign current next
                 return true;
             }
@@ -101,10 +101,10 @@ public class LinkedListX {
     public static void main(String[] args) {
         LinkedListX LL01 =  new LinkedListX();
 
-        LL01.inserFirst(23);
-        LL01.inserFirst(89);
-        LL01.inserFirst(12);
-        LL01.inserFirst(55);
+        LL01.insertFirst(23);
+        LL01.insertFirst(89);
+        LL01.insertFirst(12);
+        LL01.insertFirst(55);
 
         LL01.displayLinkedList();
 
@@ -113,9 +113,5 @@ public class LinkedListX {
             System.out.println("deleted");
             link.displayLink();
         }
-
     }
-
-
-
 }

@@ -119,6 +119,19 @@ public class BinaryTree {
         postorderTraversal(root);
     }
 
+
+    private void descendingOrder (Node current) {
+        if(current!= null) {
+            descendingOrder(current.right);
+            current.print();
+            descendingOrder(current.left);
+        }
+    }
+
+    public void descendingOrder() {
+        descendingOrder(root);
+    }
+
     // Minimum
     private Node minimum(Node current){
         return current.left == null ? current : minimum(current.left);

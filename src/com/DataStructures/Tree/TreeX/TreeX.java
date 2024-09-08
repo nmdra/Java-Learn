@@ -11,17 +11,31 @@ public class TreeX {
 		Node current = root;
 		
 		while(current.iData != key) {
-			if(key< current.iData) current = current.leftchild;
+			if(key < current.iData) current = current.leftchild;
             else current = current.rightChild;
 			if(current == null) return null;
 		}
 		return current;
 	}
+
+	public Node findRecursive(int key, Node localRoot) {
+		if(localRoot == null) return null;
+
+		else if(localRoot.iData == key) return localRoot;
+
+		else if(localRoot.iData < key) return findRecursive(key, localRoot.leftchild);
+
+		else return findRecursive(key, localRoot.rightChild);
+	}
+
+	public Node callFindRecursive(int key) {
+		return findRecursive(key, root);
+	}
 	
 	@SuppressWarnings("unused")
 	public void insert(int id,double dData) {
 		Node newNode = new Node();
-		newNode.iData =  id;
+		newNode.iData = id;
 		newNode.dData = dData;
 	
 		if(root==null) root =  newNode;
@@ -105,5 +119,16 @@ public class TreeX {
 	public void postOrder() {
 		postOrder(root);
 	}
-	
+
+	private void descendingOrder (Node localRoot) {
+		if(localRoot!= null) {
+			descendingOrder(localRoot.rightChild);
+			localRoot.displayNode();
+			descendingOrder(localRoot.leftchild);
+		}
+	}
+
+	public void descendingOrder() {
+		descendingOrder(root);
+	}
 }

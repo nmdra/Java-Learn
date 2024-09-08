@@ -52,12 +52,16 @@ public class BinaryTreeTest {
 //        System.out.println("Maximum Key in Tree: " + tree.max());
 //        System.out.println(tree.findRec(71) == null ? "Node with key not found" : "Found node with key");
 
-        System.out.println("=== InOrder traversal ===");
+        System.out.println("=== InOrder(Ascending traversal ===");
         tree.inorder();
+        System.out.println("\n=== Descending Order traversal ===");
+        tree.descendingOrder();
+
         System.out.println("\n=== Preorder traversal ===");
         tree.preorder();
         System.out.println("\n=== Postorder traversal ===");
         tree.postorder();
+;
 
         System.out.println("\n\n=== Delete Node ===");
         tree.delete(30);

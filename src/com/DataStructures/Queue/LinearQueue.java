@@ -19,8 +19,8 @@ public class LinearQueue {
         if (isFull()) {
             throw new QueueException("Queue is full");
         } else {
-            queueArray[++rear] = item;
             nItems++;
+            queueArray[++rear] = item;
         }
     }
 
@@ -28,7 +28,7 @@ public class LinearQueue {
         if (isEmpty()) {
             throw new QueueException("Queue is empty");
         } else {
-            nItems++;
+            nItems--;
             return queueArray[front++];
         }
     }
@@ -63,7 +63,7 @@ public class LinearQueue {
 
         System.out.println("Peek Front: " + q1.peekFront());
 
-        for(int i=0;i<4;i++) {
+        for(int i=0;i< q1.maxSize;i++) {
             System.out.println(q1.dequeue());
         }
     }

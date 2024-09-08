@@ -1,20 +1,20 @@
 package DataStructures.Stack;
 
-// DSA Tutorial 01 - Q02
+public class GenericStack<T> {
 
-public class StackX {
     int top;
     int maxSize;
-    int[] stackArr;
+    T[] stackArr;
 
-    public StackX(int maxSize) {
+    @SuppressWarnings("unchecked")
+    public GenericStack(int maxSize) {
         this.top = -1;
         this.maxSize = maxSize;
-        this.stackArr = new int[maxSize];
+        this.stackArr = (T[]) new Object[maxSize];
     }
 
     public boolean isEmpty() {
-         return  top == -1;
+        return  top == -1;
     }
 
     public boolean isFull() {
@@ -25,7 +25,7 @@ public class StackX {
         return top + 1;
     }
 
-    public void push(int value) {
+    public void push(T value) {
         if (isFull()) {
             System.out.print("Stack is Full\n");
         } else {
@@ -33,19 +33,17 @@ public class StackX {
         }
     }
 
-    public int pop() {
+    public T pop() throws StackException {
         if (isEmpty()) {
-            System.out.println("stack is Empty\n");
-            return -99;
+            throw new StackException("Stack is Empty");
         } else {
             return stackArr[top--];
         }
     }
 
-    public int peek() {
+    public T peek() throws StackException {
         if (isEmpty()) {
-            System.out.print("Stack is Empty\n");
-            return -99;
+            throw new StackException("Stack is Empty");
         } else {
             return stackArr[top];
         }
@@ -57,9 +55,10 @@ public class StackX {
         } else {
             System.out.print("[ ");
             for (int i = top; i >= 0; i--) {
-                System.out.printf("%d, ",stackArr[i]);
+                System.out.printf("%s, ",stackArr[i]);
             }
             System.out.print("]\n");
         }
     }
 }
+
